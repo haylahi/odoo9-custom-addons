@@ -20,4 +20,7 @@
             </ul>
         </div>
     </t>
+    <t t-name="GeoChartView">
+        <div id="regions_div" style="width: 800px; height: 400px;"></div>
+    </t>
 </templates>

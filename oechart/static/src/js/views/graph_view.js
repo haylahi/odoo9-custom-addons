@@ -1,5 +1,5 @@
 odoo.define('oechart.GraphView',function (require) {
-var core = require('web.core');
+    var core = require('web.core');
     var GraphView = require('web.GraphView')
 
     var _t = core._t;

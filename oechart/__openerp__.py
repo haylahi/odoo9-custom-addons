@@ -18,7 +18,7 @@ This is an OpenERP 9 addons to enhance native OpenERP BI features.
         "static/src/js/*.js"],
     "css": [],
     'qweb' : [
-        "static/src/xml/base.xml",
+        "static/src/xml/*.xml",
     ],
     'application': True,
 }

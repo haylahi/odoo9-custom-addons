@@ -3,6 +3,7 @@
     <data>
         <template id="assets_backend" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
+                <script type="text/javascript" src="/oechart/static/lib/loader.js"></script>
                 <script type="text/javascript" src="/oechart/static/src/js/views/graph_view.js"></script>
                 <script type="text/javascript" src="/oechart/static/src/js/views/graph_widget.js"></script>
             </xpath>
