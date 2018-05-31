@@ -6,13 +6,19 @@
     'description':
         """
 OpenERP Google Chart
-=================
+====================
 
-This is an OpenERP 9 addons to replace all chart of the web client by google chart version.
+This is an OpenERP 9 addons to enhance native OpenERP BI features.
         """,
     'data': [
+        "views/webclient_templates.xml",
     ],
-    'depends' : [],
-    'qweb': [],
+    'depends' : ['web'],
+    "js": [
+        "static/src/js/*.js"],
+    "css": [],
+    'qweb' : [
+        "static/src/xml/base.xml",
+    ],
     'application': True,
 }
