@@ -30,8 +30,8 @@
                     <ul class="list-group">
                         <li class="list-group-item">Background-color: <input name="backgroundColor" type="color" value="#FFFFFF" /></li>
                     </ul>
-                    <input id="updateMap" class="btn btn-default" type="button" value="Update" />
                 </div>
+                <input id="updateMap" class="btn btn-default pull-right" type="button" value="Update" />
             </div>
             <div class="col-md-8">
                 <div id="regions_div"></div>
