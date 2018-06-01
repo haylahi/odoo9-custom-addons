@@ -21,6 +21,23 @@
         </div>
     </t>
     <t t-name="GeoChartView">
-        <div id="regions_div" style="width: 800px; height: 400px;"></div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Settings
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Background-color: <input name="backgroundColor" type="color" value="#FFFFFF" /></li>
+                    </ul>
+                    <input id="updateMap" class="btn btn-default" type="button" value="Update" />
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div id="regions_div"></div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        
     </t>
 </templates>

@@ -20,7 +20,7 @@ odoo.define('oechart.Graphwidget', function (require) {
             var self = this;
             google.charts.setOnLoadCallback(function () {
                 console.log(self);
-                self.drawRegionsMap(self.prepareDataMap())
+                self.drawRegionsMap(self.prepareDataMap(),{})
             });
             
         },
@@ -62,7 +62,7 @@ odoo.define('oechart.Graphwidget', function (require) {
             return data;
             
         },
-        drawRegionsMap: function (dataConstr) {
+        drawRegionsMap: function (dataConstr, options) {
             features = [['Country', dataConstr[0].key]]
             dataConstr[0].values.forEach(e => {
                 features.push([e.x[0],e.y]);
@@ -70,12 +70,13 @@ odoo.define('oechart.Graphwidget', function (require) {
             
             var data = google.visualization.arrayToDataTable(features);
 
-            var options = {};
-
             var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
     
             chart.draw(data, options);
             return chart;
+        },
+        updateMap: function(optionStruct) {
+            this.drawRegionsMap(this.prepareDataMap(),optionStruct);
         }
     });
 });

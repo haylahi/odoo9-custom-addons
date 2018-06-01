@@ -6,6 +6,15 @@ odoo.define('oechart.GraphView',function (require) {
     var QWeb = core.qweb;
 
     GraphView.include({
+        events: {
+            'click #updateMap': function(e) {
+                optionStruct = {};
+                _.each($(".panel .list-group input"), function(e) {
+                    optionStruct[$(e).attr("name")] = $(e).val();
+                });
+                this.widget.updateMap(optionStruct);
+            }
+        },
         render_buttons: function ($node) {
             if ($node) {
                 var context = {measures: _.pairs(_.omit(this.measures, '__count__'))};
