@@ -8,6 +8,23 @@ odoo.define('oechart.Graphwidget', function (require) {
 
     GraphWidget.include({
         display_geo: function () {
+            if(this.groupbys.length === 0) {
+                return this.$el.append(QWeb.render('GraphView.error', {
+                    title: _t("No location groupby selected"),
+                    description: _t("No geo data available for this chart. " +
+                        "Try to add a groupby on a location field. "),
+                }));
+            } 
+            this.initMap();
+
+            var self = this;
+            google.charts.setOnLoadCallback(function () {
+                console.log(self);
+                self.drawRegionsMap(self.prepareDataMap())
+            });
+            
+        },
+        initMap: function () {
             this.$el.empty();
             this.$el.append(QWeb.render('GeoChartView'));
 
@@ -15,26 +32,50 @@ odoo.define('oechart.Graphwidget', function (require) {
                 'packages':['geochart'],
                 'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
             });
-            google.charts.setOnLoadCallback(drawRegionsMap);
-    
-            function drawRegionsMap() {
-                var data = google.visualization.arrayToDataTable([
-                    ['Country', 'Popularity'],
-                    ['Germany', 200],
-                    ['United States', 300],
-                    ['Brazil', 400],
-                    ['Canada', 500],
-                    ['France', 600],
-                    ['RU', 700]
-                ]);
-    
-                var options = {};
+        },
+        prepareDataMap: function () {
+            // prepare data for bar chart
+            var data, values,
+            measure = this.fields[this.measure].string;
 
-                var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-        
-                chart.draw(data, options);
-                return chart;
+            // zero groupbys
+            if (this.groupbys.length === 0) {
+                data = [{
+                    values: [{
+                        x: measure,
+                        y: this.data[0].value}],
+                    key: measure
+                }];
+            } 
+            // one groupby
+            if (this.groupbys.length === 1) {
+                values = this.data.map(function (datapt) {
+                    return {x: datapt.labels, y: datapt.value};
+                });
+                data = [
+                    {
+                        values: values,
+                        key: measure,
+                    }
+                ];
             }
+            return data;
+            
+        },
+        drawRegionsMap: function (dataConstr) {
+            features = [['Country', dataConstr[0].key]]
+            dataConstr[0].values.forEach(e => {
+                features.push([e.x[0],e.y]);
+            });
+            
+            var data = google.visualization.arrayToDataTable(features);
+
+            var options = {};
+
+            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+    
+            chart.draw(data, options);
+            return chart;
         }
     });
 });
