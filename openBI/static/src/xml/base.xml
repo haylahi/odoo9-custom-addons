@@ -20,25 +20,12 @@
             </ul>
         </div>
     </t>
-    <t t-name="GeoChartView">
+    <t t-name="GraphMapView">
         <div class="mapView">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Settings
-                        </div>
-                        <ul class="list-group">
-                            <li class="list-group-item">Background-color: <input class="pull-right" name="backgroundColor" type="color" value="#FFFFFF" /></li>
-                        </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item">Dataless region color: <input class="pull-right" name="datalessRegionColor" type="color" value="#FFFFFF" /></li>
-                        </ul>
-                    </div>
-                    <input id="updateMap" class="btn btn-default pull-right" type="button" value="Update" />
-                </div>
+                <div class="col-md-3"></div>
                 <div class="col-md-8">
-                    <div id="regions_div"></div>
+                    <div id="map_div"></div>
                 </div>
                 <div class="col-md-1"></div>
             </div>
