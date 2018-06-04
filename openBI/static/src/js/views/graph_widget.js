@@ -19,7 +19,6 @@ odoo.define('oechart.Graphwidget', function (require) {
 
             var self = this;
             google.charts.setOnLoadCallback(function () {
-                console.log(self);
                 self.drawRegionsMap(self.prepareDataMap(),{})
             });
 
@@ -70,13 +69,29 @@ odoo.define('oechart.Graphwidget', function (require) {
             
             var data = google.visualization.arrayToDataTable(features);
 
-            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+            var chart = new google.visualization.GeoChart(document.getElementById('map_div'));
     
             chart.draw(data, options);
             return chart;
         },
         updateMap: function(optionStruct) {
-            this.drawRegionsMap(this.prepareDataMap(),optionStruct);
-        }
+            this.drawRegionsMap(this.prepareDataMap(),this.prepareOptions(optionStruct));
+        },
+        prepareOptions: (optionStruct) => {
+            var resOptions = {}
+            for(var key in optionStruct) {
+                switch (key) {
+                    case 'colorAxisFrom' :
+                    case 'colorAxisTo' :
+                        resOptions['colors'] = [optionStruct['colorAxisFrom'],optionStruct['colorAxisTo']]
+                        break;
+                    default:
+                        resOptions[key] = optionStruct[key]
+                        break;
+                }
+
+            }
+            return resOptions;
+        },
     });
 });

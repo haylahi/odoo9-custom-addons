@@ -3,6 +3,7 @@
     <data>
         <template id="assets_backend" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/openBI/static/src/css/styles.css" />
                 <script type="text/javascript" src="/openBI/static/lib/loader.js"></script>
                 <script type="text/javascript" src="/openBI/static/src/js/views/graph_view.js"></script>
                 <script type="text/javascript" src="/openBI/static/src/js/views/graph_widget.js"></script>

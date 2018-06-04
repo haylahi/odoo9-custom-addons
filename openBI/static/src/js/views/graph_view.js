@@ -9,10 +9,25 @@ odoo.define('oechart.GraphView',function (require) {
         events: {
             'click #updateMap': function(e) {
                 optionStruct = {};
+                _.each($(".panel .list-group select"), function(e) {
+                    if($(e).val() !== "") {
+                        optionStruct[$(e).attr("name")] = $(e).val().toLowerCase();
+                    }
+                });
                 _.each($(".panel .list-group input"), function(e) {
-                    optionStruct[$(e).attr("name")] = $(e).val();
+                    if($(e).val() !== "") {
+                        optionStruct[$(e).attr("name")] = $(e).val();
+                    }
                 });
                 this.widget.updateMap(optionStruct);
+            },
+            'click #printMap': () => {
+                var mapWindow = window.open('', 'PRINT', 'height=400,width=600');
+                mapWindow.document.write(document.getElementById('map_div').innerHTML);
+                mapWindow.document.close();
+                mapWindow.focus();
+                mapWindow.print();
+                mapWindow.close();
             }
         },
         render_buttons: function ($node) {
@@ -42,6 +57,9 @@ odoo.define('oechart.GraphView',function (require) {
                 this.update_measure();
                 this.widget.set_measure(this.active_measure);
             }
+        },
+        updateMap: function (e) {
+            
         }
     })
 });

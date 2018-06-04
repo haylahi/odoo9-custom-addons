@@ -23,22 +23,76 @@
     <t t-name="GeoChartView">
         <div class="mapView">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4 col-sm-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Settings
+                            Display Settings
+                        </div>
+                        <div class="list-group form-inline">
+                            <span class="list-group-item">Display Mode: 
+                                <select class="form-control" name="displayMode">
+                                    <option>Regions</option>
+                                    <option>Markers</option>
+                                    <option>Text</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="list-group form-inline">
+                            <span class="list-group-item">Continent: 
+                                <select class="form-control" name="region">
+                                    <option value="world">All</option>
+                                    <option value="002">Africa</option>
+                                    <option value="015">Northern Africa</option>
+                                    <option value="017">Middle Africa</option>
+                                    <option value="014">Eastern Africa</option>
+                                    <option value="018">Southern Africa</option>
+                                    <option value="150">Europe</option>
+                                    <option value="154">Northern Europe</option>
+                                    <option value="155">Western Europe</option>
+                                    <option value="151">Eastern Europe</option>
+                                    <option value="039">Southern Europe</option>
+                                    <option value="019">Americas</option>
+                                    <option value="021">Northern America</option>
+                                    <option value="029">Caribbean</option>
+                                    <option value="013">Central America</option>
+                                    <option value="039">South America</option>
+                                    <option value="142">Asia</option>
+                                    <option value="143">Central Asia</option>
+                                    <option value="030">Eastern Asia</option>
+                                    <option value="034">Southern Asia</option>
+                                    <option value="039">South-Eastern Asia</option>
+                                    <option value="145">Western Asia</option>
+                                    <option value="009">Oceania</option>
+                                    <option value="053">Australia and New Zealand</option>
+                                    <option value="054">Melanesia</option>
+                                    <option value="057">Micronesia</option>
+                                    <option value="061">Polynesia</option>
+                                </select>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Color Settings
                         </div>
                         <ul class="list-group">
                             <li class="list-group-item">Background-color: <input class="pull-right" name="backgroundColor" type="color" value="#FFFFFF" /></li>
                         </ul>
                         <ul class="list-group">
-                            <li class="list-group-item">Dataless region color: <input class="pull-right" name="datalessRegionColor" type="color" value="#FFFFFF" /></li>
+                            <li class="list-group-item">Dataless region color: <input class="pull-right" name="datalessRegionColor" type="color" value="#F5F5F5" /></li>
+                        </ul>
+                        <ul class="list-group">
+                            <li class="list-group-item">Color Axis From: <input class="pull-right" name="colorAxisFrom" type="color" value="#FFFFFF" /></li>
+                        </ul>
+                        <ul class="list-group">
+                            <li class="list-group-item">Color Axis To: <input class="pull-right" name="colorAxisTo" type="color" value="#267114" /></li>
                         </ul>
                     </div>
                     <input id="updateMap" class="btn btn-default pull-right" type="button" value="Update" />
+                    <input id="printMap" class="btn btn-default pull-right" type="button" value="Print" />
                 </div>
-                <div class="col-md-8">
-                    <div id="regions_div"></div>
+                <div class="col-md-7 col-sm-12">
+                    <div id="map_div"></div>
                 </div>
                 <div class="col-md-1"></div>
             </div>
