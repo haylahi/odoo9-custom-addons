@@ -1,10 +1,9 @@
-odoo.define('openBI.GraphWidget', function (require) {
+odoo.define('oechart.Graphwidget', function (require) {
     var core = require('web.core');
     var GraphWidget = require('web.GraphWidget');
     
     var _t = core._t;
     var QWeb = core.qweb;
-    var map;
     
 
     GraphWidget.include({
@@ -17,15 +16,67 @@ odoo.define('openBI.GraphWidget', function (require) {
                 }));
             } 
             this.initMap();
+
+            var self = this;
+            google.charts.setOnLoadCallback(function () {
+                console.log(self);
+                self.drawRegionsMap(self.prepareDataMap(),{})
+            });
+
         },
         initMap: function () {
             this.$el.empty();
-            this.$el.append(QWeb.render('GraphMapView'));
+            this.$el.append(QWeb.render('GeoChartView'));
 
-            map = new google.maps.Map(document.getElementById('map_div'), {
-                center: {lat: -34.397, lng: 150.644},
-                zoom: 8
+            google.charts.load('current', {
+                'packages':['geochart'],
+                'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
             });
         },
+        prepareDataMap: function () {
+            // prepare data for bar chart
+            var data, values,
+            measure = this.fields[this.measure].string;
+
+            // zero groupbys
+            if (this.groupbys.length === 0) {
+                data = [{
+                    values: [{
+                        x: measure,
+                        y: this.data[0].value}],
+                    key: measure
+                }];
+            } 
+            // one groupby
+            if (this.groupbys.length === 1) {
+                values = this.data.map(function (datapt) {
+                    return {x: datapt.labels, y: datapt.value};
+                });
+                data = [
+                    {
+                        values: values,
+                        key: measure,
+                    }
+                ];
+            }
+            return data;
+            
+        },
+        drawRegionsMap: function (dataConstr, options) {
+            features = [['Country', dataConstr[0].key]]
+            dataConstr[0].values.forEach(e => {
+                features.push([e.x[0],e.y]);
+            });
+            
+            var data = google.visualization.arrayToDataTable(features);
+
+            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+    
+            chart.draw(data, options);
+            return chart;
+        },
+        updateMap: function(optionStruct) {
+            this.drawRegionsMap(this.prepareDataMap(),optionStruct);
+        }
     });
 });
