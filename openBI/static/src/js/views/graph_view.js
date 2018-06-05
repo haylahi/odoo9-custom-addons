@@ -1,26 +1,37 @@
 odoo.define('oechart.GraphView',function (require) {
+    "use strict";
+
     var core = require('web.core');
     var GraphView = require('web.GraphView')
 
     var _t = core._t;
     var QWeb = core.qweb;
 
+    /**
+     * Extend the web.GraphView widget with the include method.
+     */
     GraphView.include({
         events: {
-            'click #updateMap': function(e) {
-                optionStruct = {};
-                _.each($(".panel .list-group select"), function(e) {
+            /**
+             * Creates an option data structure to update the map based on user inputs.
+             */
+            'click #updateMap': function() {
+                var optionStruct = {};
+                _.each($(".panel .list-group select"), e => {
                     if($(e).val() !== "") {
                         optionStruct[$(e).attr("name")] = $(e).val();
                     }
                 });
-                _.each($(".panel .list-group input"), function(e) {
+                _.each($(".panel .list-group input"), e => {
                     if($(e).val() !== "") {
                         optionStruct[$(e).attr("name")] = $(e).val();
                     }
                 });
                 this.widget.updateMap(optionStruct);
             },
+            /**
+             * Get the displayed map and creates a new page to print.
+             */
             'click #printMap': () => {
                 var mapWindow = window.open('', 'PRINT', 'height=400,width=600');
                 mapWindow.document.write(document.getElementById('map_div').innerHTML);
@@ -30,6 +41,12 @@ odoo.define('oechart.GraphView',function (require) {
                 mapWindow.close();
             }
         },
+        /**
+         * @param $node
+         * 
+         * Override web.GraphView.render_buttons method with new buttons rendering 
+         * (the geo chart button is rendered in addition to existing ones)
+         */
         render_buttons: function ($node) {
             if ($node) {
                 var context = {measures: _.pairs(_.omit(this.measures, '__count__'))};
@@ -42,6 +59,12 @@ odoo.define('oechart.GraphView',function (require) {
                 this.$buttons.appendTo($node);
             }
         },
+        /**
+         * @param event object containing the event target
+         * 
+         * Override web.GraphView.on_button_click method with new events binding
+         * (bind the display_geo method in graph_widget.js to the geo chart button)
+         */
         on_button_click: function (event) {
             var $target = $(event.target);
             if ($target.hasClass('oe-bar-mode')) {this.widget.set_mode('bar');}
@@ -57,9 +80,6 @@ odoo.define('oechart.GraphView',function (require) {
                 this.update_measure();
                 this.widget.set_measure(this.active_measure);
             }
-        },
-        updateMap: function (e) {
-            
         }
     })
 });
