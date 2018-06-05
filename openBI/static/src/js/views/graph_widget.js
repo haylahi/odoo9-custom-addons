@@ -8,18 +8,12 @@ odoo.define('oechart.Graphwidget', function (require) {
 
     GraphWidget.include({
         display_geo: function () {
-            if(this.groupbys.length === 0) {
-                return this.$el.append(QWeb.render('GraphView.error', {
-                    title: _t("No location groupby selected"),
-                    description: _t("No geo data available for this chart. " +
-                        "Try to add a groupby on a location field. "),
-                }));
-            } 
             this.initMap();
 
             var self = this;
             google.charts.setOnLoadCallback(function () {
-                self.drawRegionsMap(self.prepareDataMap(),{})
+                self.drawRegionsMap(self.prepareDataMap(),{});
+                //self.buildDataTable();
             });
 
         },
@@ -58,12 +52,43 @@ odoo.define('oechart.Graphwidget', function (require) {
                     }
                 ];
             }
+            
+            if (this.groupbys.length > 1) {
+                var xlabels = [],
+                    series = [],
+                    label, serie, value;
+                values = {};
+                for (var i = 0; i < this.data.length; i++) {
+                    label = this.data[i].labels[0];
+                    serie = this.data[i].labels[1];
+                    value = this.data[i].value;
+                    if ((!xlabels.length) || (xlabels[xlabels.length-1] !== label)) {
+                        xlabels.push(label);
+                    }
+                    series.push(this.data[i].labels[1]);
+                    if (!(serie in values)) {values[serie] = {};}
+                    values[serie][label] = this.data[i].value;
+                }
+                series = _.uniq(series);
+                data = [];
+                var current_serie, j;
+                for (i = 0; i < series.length; i++) {
+                    current_serie = {values: [], key: series[i]};
+                    for (j = 0; j < xlabels.length; j++) {
+                        current_serie.values.push({
+                            x: xlabels[j],
+                            y: values[series[i]][xlabels[j]] || 0,
+                        });
+                    }
+                    data.push(current_serie);
+                }
+            }
             return data;
             
         },
-        drawRegionsMap: function (dataConstr, options) {
-            features = [['Country', dataConstr[0].key]]
-            dataConstr[0].values.forEach(e => {
+        drawRegionsMap: function (dataStruct, options) {
+            features = [['Country', dataStruct[0].key]]
+            dataStruct[0].values.forEach(e => {
                 features.push([e.x[0],e.y]);
             });
             

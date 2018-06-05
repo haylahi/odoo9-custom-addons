@@ -1,3 +1,26 @@
 .mapView {
-    margin: 15px;
+    padding: 15px;
+}
+.mapView .list-group {
+    margin-bottom: 0;
+}
+.mapView .button-action button {
+    background-color: #7B7AAC; 
+    color: white;
+    width: 105px;
+    margin-bottom: 10px;
+}
+.mapView .panel-heading {
+    font-weight: bold;
+    color: #7B7AAC;
+}
+.mapView div .fa-chevron-down, div .fa-chevron-right {
+    margin-top: 3px;
+    color: #7B7AAC;
+}
+.mapView div[aria-expanded=true] .fa-chevron-right {
+    display: none;
+}
+.mapView div[aria-expanded=false] .fa-chevron-down {
+    display: none;
 }
