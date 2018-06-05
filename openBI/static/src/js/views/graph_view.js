@@ -11,7 +11,7 @@ odoo.define('oechart.GraphView',function (require) {
                 optionStruct = {};
                 _.each($(".panel .list-group select"), function(e) {
                     if($(e).val() !== "") {
-                        optionStruct[$(e).attr("name")] = $(e).val().toLowerCase();
+                        optionStruct[$(e).attr("name")] = $(e).val();
                     }
                 });
                 _.each($(".panel .list-group input"), function(e) {

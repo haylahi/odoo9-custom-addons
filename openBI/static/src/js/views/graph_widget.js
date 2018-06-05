@@ -12,8 +12,7 @@ odoo.define('oechart.Graphwidget', function (require) {
 
             var self = this;
             google.charts.setOnLoadCallback(function () {
-                self.drawRegionsMap(self.prepareDataMap(),{});
-                //self.buildDataTable();
+                self.drawRegionsMap(self.prepareDataMap(), {tooltip: { trigger: 'selection' }});
             });
 
         },
@@ -22,7 +21,7 @@ odoo.define('oechart.Graphwidget', function (require) {
             this.$el.append(QWeb.render('GeoChartView'));
 
             google.charts.load('current', {
-                'packages':['geochart'],
+                'packages':['geochart','table'],
                 'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
             });
         },
@@ -95,15 +94,21 @@ odoo.define('oechart.Graphwidget', function (require) {
             var data = google.visualization.arrayToDataTable(features);
 
             var chart = new google.visualization.GeoChart(document.getElementById('map_div'));
+            var table = new google.visualization.Table(document.getElementById('table_div'));
     
             chart.draw(data, options);
+            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+            
+            google.visualization.events.addListener(table, 'select', () => {
+                chart.setSelection(table.getSelection())
+            });
             return chart;
         },
         updateMap: function(optionStruct) {
             this.drawRegionsMap(this.prepareDataMap(),this.prepareOptions(optionStruct));
         },
         prepareOptions: (optionStruct) => {
-            var resOptions = {}
+            var resOptions =  {tooltip: { trigger: 'selection' }};
             for(var key in optionStruct) {
                 switch (key) {
                     case 'colorAxisFrom' :

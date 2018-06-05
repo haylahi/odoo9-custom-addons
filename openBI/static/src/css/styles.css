@@ -24,3 +24,6 @@
 .mapView div[aria-expanded=false] .fa-chevron-down {
     display: none;
 }
+#map-table {
+    margin-top: 15px;
+}
