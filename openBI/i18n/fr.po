@@ -1,0 +1,339 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* openBI
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-05 08:50+0000\n"
+"PO-Revision-Date: 2018-06-05 08:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:45
+#, python-format
+msgid "Africa"
+msgstr "Afrique"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:44
+#, python-format
+msgid "All"
+msgstr "Tout"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:55
+#, python-format
+msgid "Americas"
+msgstr "Amérique"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:60
+#, python-format
+msgid "Asia"
+msgstr "Asie"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:67
+#, python-format
+msgid "Australia and New Zealand"
+msgstr "Australie et Nouvelle Zélande"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:84
+#, python-format
+msgid "Background-color"
+msgstr "Couleur de fond"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:5
+#, python-format
+msgid "Bar Chart"
+msgstr "Bar Chart"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:57
+#, python-format
+msgid "Caribbean"
+msgstr "Caraïbes"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:58
+#, python-format
+msgid "Central America"
+msgstr "Amérique Centrale"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:61
+#, python-format
+msgid "Central Asia"
+msgstr "Asie Centrale"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:86
+#, python-format
+msgid "Color Axis From"
+msgstr "Début de l'échelle de couleurs"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:87
+#, python-format
+msgid "Color Axis To"
+msgstr "Fin de l'échelle de couleurs"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:77
+#, python-format
+msgid "Color Settings"
+msgstr "Configuration des couleurs"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:42
+#, python-format
+msgid "Continent"
+msgstr "Continent"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:19
+#, python-format
+msgid "Count"
+msgstr "Count"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:85
+#, python-format
+msgid "Dataless region color"
+msgstr "Couleur des régions sans données"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:35
+#, python-format
+msgid "Display Mode"
+msgstr "Mode d'affichage"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:28
+#, python-format
+msgid "Display Settings"
+msgstr "Configuration de l'affichage"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:48
+#, python-format
+msgid "Eastern Africa"
+msgstr "Afrique de l'Est"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:62
+#, python-format
+msgid "Eastern Asia"
+msgstr "Asie de l'Est"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:53
+#, python-format
+msgid "Eastern Europe"
+msgstr "Europe de l'Est"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:50
+#, python-format
+msgid "Europe"
+msgstr "Europe"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:8
+#, python-format
+msgid "Geo Chart"
+msgstr "Geo Chart"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:6
+#, python-format
+msgid "Line Chart"
+msgstr "Line Chart"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:38
+#, python-format
+msgid "Markers"
+msgstr "Marqueurs"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:11
+#, python-format
+msgid "Measure"
+msgstr "Measure"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:68
+#, python-format
+msgid "Melanesia"
+msgstr "Mélanésie"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:69
+#, python-format
+msgid "Micronesia"
+msgstr "Micronésie"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:47
+#, python-format
+msgid "Middle Africa"
+msgstr "Afrique Centrale"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:46
+#, python-format
+msgid "Northern Africa"
+msgstr "Afrique du Nord"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:56
+#, python-format
+msgid "Northern America"
+msgstr "Amérique du Nord"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:51
+#, python-format
+msgid "Northern Europe"
+msgstr "Europe du Nord"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:66
+#, python-format
+msgid "Oceania"
+msgstr "Océanie"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:7
+#, python-format
+msgid "Pie Chart"
+msgstr "Pie Chart"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:70
+#, python-format
+msgid "Polynesia"
+msgstr "Polynésie"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:96
+#, python-format
+msgid "Print"
+msgstr "Imprimer"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:37
+#, python-format
+msgid "Regions"
+msgstr "Régions"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:59
+#, python-format
+msgid "South America"
+msgstr "Amérique du Sud"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:64
+#, python-format
+msgid "South-Eastern Asia"
+msgstr "Asie du Sud-Est"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:49
+#, python-format
+msgid "Southern Africa"
+msgstr "Afrique du Sud"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:63
+#, python-format
+msgid "Southern Asia"
+msgstr "Asie du Sud"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:54
+#, python-format
+msgid "Southern Europe"
+msgstr "Europe du Sud"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:39
+#, python-format
+msgid "Text"
+msgstr "Texte"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:93
+#, python-format
+msgid "Update"
+msgstr "Mise à jour"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:65
+#, python-format
+msgid "Western Asia"
+msgstr "Asie de l'Ouest"
+
+#. module: openBI
+#. openerp-web
+#: code:addons/openBI/static/src/xml/base.xml:52
+#, python-format
+msgid "Western Europe"
+msgstr "Europe de l'Ouest"
+

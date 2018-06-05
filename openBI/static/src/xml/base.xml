@@ -32,14 +32,14 @@
                         </div>
                         <div id="display-settings" class="collapse">
                             <ul class="list-group form-inline">
-                                <li class="list-group-item">Display Mode: 
+                                <li class="list-group-item">Display Mode 
                                     <select class="pull-right" name="displayMode">
                                         <option>Regions</option>
                                         <option>Markers</option>
                                         <option>Text</option>
                                     </select>
                                 </li>
-                                <li class="list-group-item">Continent: 
+                                <li class="list-group-item">Continent 
                                     <select class="pull-right" name="region">
                                         <option value="world">All</option>
                                         <option value="002">Africa</option>
@@ -81,10 +81,10 @@
                         </div>
                         <div id="color-settings" class="collapse">
                             <ul class="list-group">
-                                <li class="list-group-item">Background-color: <input class="pull-right" name="backgroundColor" type="color" value="#FFFFFF" /></li>
-                                <li class="list-group-item">Dataless region color: <input class="pull-right" name="datalessRegionColor" type="color" value="#F5F5F5" /></li>
-                                <li class="list-group-item">Color Axis From: <input class="pull-right" name="colorAxisFrom" type="color" value="#EEE5DB" /></li>
-                                <li class="list-group-item">Color Axis To: <input class="pull-right" name="colorAxisTo" type="color" value="#267114" /></li>
+                                <li class="list-group-item">Background-color<input class="pull-right" name="backgroundColor" type="color" value="#FFFFFF" /></li>
+                                <li class="list-group-item">Dataless region color<input class="pull-right" name="datalessRegionColor" type="color" value="#F5F5F5" /></li>
+                                <li class="list-group-item">Color Axis From<input class="pull-right" name="colorAxisFrom" type="color" value="#EEE5DB" /></li>
+                                <li class="list-group-item">Color Axis To<input class="pull-right" name="colorAxisTo" type="color" value="#267114" /></li>
                             </ul>
                         </div>
                     </div>
