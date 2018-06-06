@@ -14,7 +14,6 @@ odoo.define('oechart.GraphView',function (require) {
         events: {
             'change .panel input': 'build_options',
             'change .panel select': 'build_options',
-
             /**
              * Get the displayed map and creates a new page to print.
              */
@@ -25,6 +24,15 @@ odoo.define('oechart.GraphView',function (require) {
                 mapWindow.focus();
                 mapWindow.print();
                 mapWindow.close();
+            },
+            'change .mapView .select-continents': () => {
+                if($('.select-continents').val() !== "world") {
+                    $('.select-subcontinents').parent().removeClass("hidden");
+                    $('.select-subcontinents').parent().show();
+                } else {
+                    $('.select-subcontinents').parent().addClass("hidden");
+                    $('.select-subcontinents').val('');
+                }
             }
         },
         /**

@@ -1,6 +1,6 @@
 odoo.define('oechart.Graphwidget', function (require) {
     "use strict";
-
+    
     var core = require('web.core');
     var GraphWidget = require('web.GraphWidget');
     
@@ -115,8 +115,6 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Draw the map and the table.
          */
         drawRegionsMap: function (features) {
-            console.log(features);
-            console.log(mapOptions);
             var data = google.visualization.arrayToDataTable(features);
 
             var chart = new google.visualization.GeoChart(document.getElementById('map_div'));
@@ -159,5 +157,5 @@ odoo.define('oechart.Graphwidget', function (require) {
                 }
             }
         },
-    });
+    })
 });

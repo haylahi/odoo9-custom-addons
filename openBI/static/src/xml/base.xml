@@ -40,35 +40,10 @@
                                     </select>
                                 </li>
                                 <li class="list-group-item">Continent 
-                                    <select class="pull-right" name="region">
-                                        <option value="world">All</option>
-                                        <option value="002">Africa</option>
-                                        <option value="015">Northern Africa</option>
-                                        <option value="017">Middle Africa</option>
-                                        <option value="014">Eastern Africa</option>
-                                        <option value="018">Southern Africa</option>
-                                        <option value="150">Europe</option>
-                                        <option value="154">Northern Europe</option>
-                                        <option value="155">Western Europe</option>
-                                        <option value="151">Eastern Europe</option>
-                                        <option value="039">Southern Europe</option>
-                                        <option value="019">Americas</option>
-                                        <option value="021">Northern America</option>
-                                        <option value="029">Caribbean</option>
-                                        <option value="013">Central America</option>
-                                        <option value="039">South America</option>
-                                        <option value="142">Asia</option>
-                                        <option value="143">Central Asia</option>
-                                        <option value="030">Eastern Asia</option>
-                                        <option value="034">Southern Asia</option>
-                                        <option value="039">South-Eastern Asia</option>
-                                        <option value="145">Western Asia</option>
-                                        <option value="009">Oceania</option>
-                                        <option value="053">Australia and New Zealand</option>
-                                        <option value="054">Melanesia</option>
-                                        <option value="057">Micronesia</option>
-                                        <option value="061">Polynesia</option>
-                                    </select>
+                                    <t t-call="openBI.continents"></t>
+                                </li>
+                                <li class="hidden list-group-item">Sub Continent 
+                                    <t t-call="openBI.subcontinents"></t>
                                 </li>
                             </ul>
                         </div>
@@ -110,5 +85,41 @@
                 <div class="col-md-1"></div>
             </div>
         </div>
+    </t>
+    <t t-name="openBI.continents">
+        <select class="select-continents pull-right" name="region">
+            <option value="world">All</option>
+            <option value="002">Africa</option>
+            <option value="150">Europe</option>
+            <option value="019">Americas</option>
+            <option value="142">Asia</option>
+            <option value="009">Oceania</option> 
+        </select>
+    </t>
+    <t t-name="openBI.subcontinents">
+        <select class="select-subcontinents pull-right" name="region">
+            <option value=""></option>
+            <option value="015">Northern Africa</option>
+            <option value="017">Middle Africa</option>
+            <option value="014">Eastern Africa</option>
+            <option value="018">Southern Africa</option>
+            <option value="154">Northern Europe</option>
+            <option value="155">Western Europe</option>
+            <option value="151">Eastern Europe</option>
+            <option value="039">Southern Europe</option>
+            <option value="021">Northern America</option>
+            <option value="029">Caribbean</option>
+            <option value="013">Central America</option>
+            <option value="039">South America</option>
+            <option value="143">Central Asia</option>
+            <option value="030">Eastern Asia</option>
+            <option value="034">Southern Asia</option>
+            <option value="039">South-Eastern Asia</option>
+            <option value="145">Western Asia</option>
+            <option value="053">Australia and New Zealand</option>
+            <option value="054">Melanesia</option>
+            <option value="057">Micronesia</option>
+            <option value="061">Polynesia</option>
+        </select>
     </t>
 </templates>
