@@ -7,19 +7,21 @@ odoo.define('oechart.Graphwidget', function (require) {
     var _t = core._t;
     var QWeb = core.qweb;
     
+    var mapOptions = {tooltip: { trigger: 'selection' }};
     /**
      * Extends web.GraphWidget with the include method.
      */
     GraphWidget.include({
+
         /**
          * Main method displaying the map on geo chart button click.
          */
         display_geo: function () {
-            this.initMap();
-
             var self = this;
+
+            self.initMap();
             google.charts.setOnLoadCallback(function () {
-                self.drawRegionsMap(self.prepareDataMap(), {tooltip: { trigger: 'selection' }});
+                self.drawRegionsMap(self.prepareDataMap());
             });
         },
         /**
@@ -97,7 +99,14 @@ odoo.define('oechart.Graphwidget', function (require) {
                     data.push(current_serie);
                 }
             }
-            return data;
+
+            // Organize the data for the map
+            var features = [['Country', data[0].key]]
+            data[0].values.forEach(e => {
+                features.push([e.x[0],e.y]);
+            });
+
+            return features;
         },
         /**
          * @argument dataStruct organized data
@@ -105,22 +114,22 @@ odoo.define('oechart.Graphwidget', function (require) {
          * 
          * Draw the map and the table.
          */
-        drawRegionsMap: function (dataStruct, options) {
-            var features = [['Country', dataStruct[0].key]]
-            dataStruct[0].values.forEach(e => {
-                features.push([e.x[0],e.y]);
-            });
-            
+        drawRegionsMap: function (features) {
+            console.log(features);
+            console.log(mapOptions);
             var data = google.visualization.arrayToDataTable(features);
 
             var chart = new google.visualization.GeoChart(document.getElementById('map_div'));
             var table = new google.visualization.Table(document.getElementById('table_div'));
     
-            chart.draw(data, options);
+            chart.draw(data, mapOptions);
             table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
             
             google.visualization.events.addListener(table, 'select', () => {
                 chart.setSelection(table.getSelection())
+            });
+            google.visualization.events.addListener(chart, 'select', () => {
+                table.setSelection(chart.getSelection())
             });
         },
         /**
@@ -129,29 +138,26 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Redraw the map
          */
         updateMap: function(optionStruct) {
-            this.drawRegionsMap(this.prepareDataMap(),this.prepareOptions(optionStruct));
+            this.prepareOptions(optionStruct);
+            this.drawRegionsMap(this.prepareDataMap());
         },
         /**
          * @param optionStruct object containing user inputs
-         * @returns resOptions object use to configure the drawn map
          * 
          * Transforms user input into a map configuration
          */
         prepareOptions: (optionStruct) => {
-            var resOptions =  {tooltip: { trigger: 'selection' }};
             for(var key in optionStruct) {
                 switch (key) {
                     case 'colorAxisFrom' :
                     case 'colorAxisTo' :
-                        resOptions['colors'] = [optionStruct['colorAxisFrom'],optionStruct['colorAxisTo']]
+                        mapOptions['colors'] = [optionStruct['colorAxisFrom'],optionStruct['colorAxisTo']]
                         break;
                     default:
-                        resOptions[key] = optionStruct[key]
+                        mapOptions[key] = optionStruct[key]
                         break;
                 }
-
             }
-            return resOptions;
         },
     });
 });

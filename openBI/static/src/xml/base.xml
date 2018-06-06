@@ -90,9 +90,6 @@
                     </div>
                     <div class="button-action row">
                         <div class="col-xs-12">
-                            <button id="updateMap" class="btn btn-default btn-md pull-right">Update</button>
-                        </div>
-                        <div class="col-xs-12">
                             <button id="printMap" class="btn btn-default btn-md pull-right">Print</button>
                         </div>
                     </div>

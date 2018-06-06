@@ -12,23 +12,9 @@ odoo.define('oechart.GraphView',function (require) {
      */
     GraphView.include({
         events: {
-            /**
-             * Creates an option data structure to update the map based on user inputs.
-             */
-            'click #updateMap': function() {
-                var optionStruct = {};
-                _.each($(".panel .list-group select"), e => {
-                    if($(e).val() !== "") {
-                        optionStruct[$(e).attr("name")] = $(e).val();
-                    }
-                });
-                _.each($(".panel .list-group input"), e => {
-                    if($(e).val() !== "") {
-                        optionStruct[$(e).attr("name")] = $(e).val();
-                    }
-                });
-                this.widget.updateMap(optionStruct);
-            },
+            'change .panel input': 'build_options',
+            'change .panel select': 'build_options',
+
             /**
              * Get the displayed map and creates a new page to print.
              */
@@ -40,6 +26,23 @@ odoo.define('oechart.GraphView',function (require) {
                 mapWindow.print();
                 mapWindow.close();
             }
+        },
+        /**
+         * Creates an option data structure to update the map based on user inputs.
+         */
+        build_options: function () {
+            var optionStruct = {};
+            _.each($(".panel .list-group select"), e => {
+                if($(e).val() !== "") {
+                    optionStruct[$(e).attr("name")] = $(e).val();
+                }
+            });
+            _.each($(".panel .list-group input"), e => {
+                if($(e).val() !== "") {
+                    optionStruct[$(e).attr("name")] = $(e).val();
+                }
+            });
+            this.widget.updateMap(optionStruct);
         },
         /**
          * @param $node
