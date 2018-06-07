@@ -28,6 +28,7 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Render the map view and load necessary packages.
          */
         initMap: function () {
+            mapOptions = {tooltip: { trigger: 'selection' }};
             this.$el.empty();
             this.$el.append(QWeb.render('GeoChartView'));
 
@@ -145,7 +146,6 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Transforms user input into a map configuration
          */
         prepareOptions: (optionStruct) => {
-            console.log(optionStruct);
             for(var key in optionStruct) {
                 switch (key) {
                     case 'subcontinent':

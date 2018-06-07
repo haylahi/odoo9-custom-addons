@@ -112,11 +112,11 @@
             <option value="021" data-tag="019">Northern America</option>
             <option value="029" data-tag="019">Caribbean</option>
             <option value="013" data-tag="019">Central America</option>
-            <option value="039" data-tag="019">South America</option>
+            <option value="005" data-tag="019">South America</option>
             <option value="143" data-tag="142">Central Asia</option>
             <option value="030" data-tag="142">Eastern Asia</option>
             <option value="034" data-tag="142">Southern Asia</option>
-            <option value="039" data-tag="142">South-Eastern Asia</option>
+            <option value="035" data-tag="142">South-Eastern Asia</option>
             <option value="145" data-tag="142">Western Asia</option>
             <option value="053" data-tag="009">Australia and New Zealand</option>
             <option value="054" data-tag="009">Melanesia</option>
@@ -152,7 +152,6 @@
             <option value="SN" data-ctag="002" data-tag="011">Senegal</option>
             <option value="TG" data-ctag="002" data-tag="011">Togo</option>
             <option value="AO" data-ctag="002" data-tag="017">Angola</option>
-            <option value="ZR" data-ctag="002" data-tag="017">Zaire</option>
             <option value="CF" data-ctag="002" data-tag="017">Central African Republic</option>
             <option value="CG" data-ctag="002" data-tag="017">Congo</option>
             <option value="CM" data-ctag="002" data-tag="017">Cameroon</option>
@@ -201,7 +200,6 @@
             <option value="CH" data-ctag="150" data-tag="155">Switzerland</option>
             <option value="DE" data-ctag="150" data-tag="155">Germany</option>
             <option value="FR" data-ctag="150" data-tag="155">France</option>
-            <option value="FX" data-ctag="150" data-tag="155">France, Metropolitan</option>
             <option value="LI" data-ctag="150" data-tag="155">Liechtenstein</option>
             <option value="LU" data-ctag="150" data-tag="155">Luxembourg</option>
             <option value="MC" data-ctag="150" data-tag="155">Monaco</option>
@@ -230,7 +228,6 @@
             <option value="SI" data-ctag="150" data-tag="039">Slovenia</option>
             <option value="SM" data-ctag="150" data-tag="039">San Marino</option>
             <option value="VA" data-ctag="150" data-tag="039">Vatican City State (Holy See)</option>
-            <option value="YU" data-ctag="150" data-tag="039">Yugoslavia</option>
             <option value="BM" data-ctag="019" data-tag="021">Bermuda</option>
             <option value="CA" data-ctag="019" data-tag="021">Canada</option>
             <option value="GL" data-ctag="019" data-tag="021">Greenland</option>
@@ -238,7 +235,6 @@
             <option value="US" data-ctag="019" data-tag="021">United States</option>
             <option value="AG" data-ctag="019" data-tag="029">Antigua And Barbuda</option>
             <option value="AI" data-ctag="019" data-tag="029">Anguilla</option>
-            <option value="AN" data-ctag="019" data-tag="029">Netherlands Antilles</option>
             <option value="AW" data-ctag="019" data-tag="029">Aruba</option>
             <option value="BB" data-ctag="019" data-tag="029">Barbados</option>
             <option value="CU" data-ctag="019" data-tag="029">Cuba</option>
