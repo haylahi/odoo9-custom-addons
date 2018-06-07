@@ -42,6 +42,9 @@ odoo.define('oechart.GraphView',function (require) {
             });
             this.widget.updateMap(optionStruct);
         },
+        /**
+         * Manages 'Display settings' select input states at each value change
+         */
         select_set_state: () => {
             // Show subcontinents if 'All' isn't selected
             if($('.select-continents').val() !== "world") {
@@ -82,6 +85,7 @@ odoo.define('oechart.GraphView',function (require) {
                     .hide();
                 }
             } else {
+                // Hide subcontinents and country select if 'All' is chosen
                 $('.select-subcontinents').val(" ");
                 $('.select-subcontinents').parent().addClass("hidden");
                 $('.select-countries').val(" ");

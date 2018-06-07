@@ -7,12 +7,13 @@ odoo.define('oechart.Graphwidget', function (require) {
     var _t = core._t;
     var QWeb = core.qweb;
     
+    // Global map options
     var mapOptions = {tooltip: { trigger: 'selection' }};
+
     /**
      * Extends web.GraphWidget with the include method.
      */
     GraphWidget.include({
-
         /**
          * Main method displaying the map on geo chart button click.
          */
@@ -38,7 +39,7 @@ odoo.define('oechart.Graphwidget', function (require) {
             });
         },
         /**
-         * @returns data transformed data
+         * @returns features transformed data
          * 
          * Transform data in an understandable format for the map.
          */

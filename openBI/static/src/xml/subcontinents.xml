@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="openBI.subcontinents">
+        <select class="select-subcontinents pull-right" name="subcontinent">
+            <option value=" " data-tag=""></option>
+            <option value="015" data-tag="002">Northern Africa</option>
+            <option value="017" data-tag="002">Middle Africa</option>
+            <option value="014" data-tag="002">Eastern Africa</option>
+            <option value="018" data-tag="002">Southern Africa</option>
+            <option value="154" data-tag="150">Northern Europe</option>
+            <option value="155" data-tag="150">Western Europe</option>
+            <option value="151" data-tag="150">Eastern Europe</option>
+            <option value="039" data-tag="150">Southern Europe</option>
+            <option value="021" data-tag="019">Northern America</option>
+            <option value="029" data-tag="019">Caribbean</option>
+            <option value="013" data-tag="019">Central America</option>
+            <option value="005" data-tag="019">South America</option>
+            <option value="143" data-tag="142">Central Asia</option>
+            <option value="030" data-tag="142">Eastern Asia</option>
+            <option value="034" data-tag="142">Southern Asia</option>
+            <option value="035" data-tag="142">South-Eastern Asia</option>
+            <option value="145" data-tag="142">Western Asia</option>
+            <option value="053" data-tag="009">Australia and New Zealand</option>
+            <option value="054" data-tag="009">Melanesia</option>
+            <option value="057" data-tag="009">Micronesia</option>
+            <option value="061" data-tag="009">Polynesia</option>
+        </select>
+    </t>
+</templates>
