@@ -148,9 +148,14 @@ odoo.define('oechart.Graphwidget', function (require) {
             console.log(optionStruct);
             for(var key in optionStruct) {
                 switch (key) {
-                    case 'subcontinents':
-                        if (optionStruct['subcontinents'] !== " ") { 
-                            mapOptions['region'] = optionStruct['subcontinents'];
+                    case 'subcontinent':
+                        if (optionStruct['subcontinent'] !== " ") { 
+                            mapOptions['region'] = optionStruct['subcontinent'];
+                        }
+                        break;
+                    case 'country':
+                        if (optionStruct['country'] !== " ") { 
+                            mapOptions['region'] = optionStruct['country'];
                         }
                         break;
                     case 'colorAxisFrom' :

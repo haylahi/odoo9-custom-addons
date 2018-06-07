@@ -51,18 +51,41 @@ odoo.define('oechart.GraphView',function (require) {
                     $('.select-subcontinents').val(" ");
                 }
 
+                // Set selected country to default if it is from an other subcontinent or continent
+                if($('.select-countries').find(':selected').data("ctag") != $('.select-continents').val() || ($('.select-countries').find(':selected').data("tag") != $('.select-subcontinents').val() && $('.select-subcontinents').val() != " ")) {
+                    $('.select-countries').val(" ");
+                } 
+
                 // Show sub-continents select and options
                 $('.select-subcontinents').parent().removeClass("hidden");
                 $('.select-subcontinents').parent().show();
                 $('.select-subcontinents option').show();
                 
-                //Hide all the subcontinents not from the selected continent
+                // Hide all the subcontinents not from the selected continent
                 $('.select-subcontinents option')
                     .filter(function () { return $(this).data("tag") != $('.select-continents').val() && $(this).val() != " " })
                     .hide();
+                
+                // Show countries select and options
+                $('.select-countries').parent().removeClass("hidden");
+                $('.select-countries').parent().show();
+                $('.select-countries option').show();
+
+                // Hide all the countries not from the selected subcontinent or continent
+                if ($('.select-subcontinents').val() != " ") {
+                    $('.select-countries option')
+                        .filter(function () { return $(this).data("tag") != $('.select-subcontinents').val() && $(this).val() != " " })
+                        .hide();
+                } else {
+                    $('.select-countries option')
+                    .filter(function () { return $(this).data("ctag") != $('.select-continents').val() && $(this).val() != " " })
+                    .hide();
+                }
             } else {
                 $('.select-subcontinents').val(" ");
                 $('.select-subcontinents').parent().addClass("hidden");
+                $('.select-countries').val(" ");
+                $('.select-countries').parent().addClass("hidden");
             }
         },
         /**
