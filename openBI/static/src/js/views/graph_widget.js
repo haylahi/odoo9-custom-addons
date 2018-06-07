@@ -145,8 +145,14 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Transforms user input into a map configuration
          */
         prepareOptions: (optionStruct) => {
+            console.log(optionStruct);
             for(var key in optionStruct) {
                 switch (key) {
+                    case 'subcontinents':
+                        if (optionStruct['subcontinents'] !== " ") { 
+                            mapOptions['region'] = optionStruct['subcontinents'];
+                        }
+                        break;
                     case 'colorAxisFrom' :
                     case 'colorAxisTo' :
                         mapOptions['colors'] = [optionStruct['colorAxisFrom'],optionStruct['colorAxisTo']]

@@ -13,7 +13,10 @@ odoo.define('oechart.GraphView',function (require) {
     GraphView.include({
         events: {
             'change .panel input': 'build_options',
-            'change .panel select': 'build_options',
+            'change .panel select': function () {
+                this.select_set_state();
+                this.build_options();
+            },
             /**
              * Get the displayed map and creates a new page to print.
              */
@@ -25,15 +28,6 @@ odoo.define('oechart.GraphView',function (require) {
                 mapWindow.print();
                 mapWindow.close();
             },
-            'change .mapView .select-continents': () => {
-                if($('.select-continents').val() !== "world") {
-                    $('.select-subcontinents').parent().removeClass("hidden");
-                    $('.select-subcontinents').parent().show();
-                } else {
-                    $('.select-subcontinents').parent().addClass("hidden");
-                    $('.select-subcontinents').val('');
-                }
-            }
         },
         /**
          * Creates an option data structure to update the map based on user inputs.
@@ -41,16 +35,35 @@ odoo.define('oechart.GraphView',function (require) {
         build_options: function () {
             var optionStruct = {};
             _.each($(".panel .list-group select"), e => {
-                if($(e).val() !== "") {
-                    optionStruct[$(e).attr("name")] = $(e).val();
-                }
+                optionStruct[$(e).attr("name")] = $(e).val();
             });
             _.each($(".panel .list-group input"), e => {
-                if($(e).val() !== "") {
-                    optionStruct[$(e).attr("name")] = $(e).val();
-                }
+                optionStruct[$(e).attr("name")] = $(e).val();
             });
             this.widget.updateMap(optionStruct);
+        },
+        select_set_state: () => {
+            // Show subcontinents if 'All' isn't selected
+            if($('.select-continents').val() !== "world") {
+
+                // Set selected subcontinent to default if it is from an other continent
+                if($('.select-subcontinents').find(':selected').data("tag") != $('.select-continents').val()) {
+                    $('.select-subcontinents').val(" ");
+                }
+
+                // Show sub-continents select and options
+                $('.select-subcontinents').parent().removeClass("hidden");
+                $('.select-subcontinents').parent().show();
+                $('.select-subcontinents option').show();
+                
+                //Hide all the subcontinents not from the selected continent
+                $('.select-subcontinents option')
+                    .filter(function () { return $(this).data("tag") != $('.select-continents').val() && $(this).val() != " " })
+                    .hide();
+            } else {
+                $('.select-subcontinents').val(" ");
+                $('.select-subcontinents').parent().addClass("hidden");
+            }
         },
         /**
          * @param $node
