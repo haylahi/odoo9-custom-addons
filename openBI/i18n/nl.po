@@ -27,7 +27,7 @@ msgstr "Afghanistan"
 #: code:addons/openBI/static/src/xml/continents.xml:6
 #, python-format
 msgid "Africa"
-msgstr "Africa"
+msgstr "Afrika"
 
 #. module: openBI
 #. openerp-web
@@ -48,7 +48,7 @@ msgstr "Algerije"
 #: code:addons/openBI/static/src/xml/continents.xml:5
 #, python-format
 msgid "All"
-msgstr "All"
+msgstr "Alle"
 
 #. module: openBI
 #. openerp-web
@@ -90,7 +90,7 @@ msgstr "Anguilla"
 #: code:addons/openBI/static/src/xml/countries.xml:112
 #, python-format
 msgid "Antigua And Barbuda"
-msgstr "Antigua And Barbuda"
+msgstr "Antigua en Barbuda"
 
 #. module: openBI
 #. openerp-web
@@ -118,7 +118,7 @@ msgstr "Aruba"
 #: code:addons/openBI/static/src/xml/continents.xml:9
 #, python-format
 msgid "Asia"
-msgstr "Asia"
+msgstr "Azië"
 
 #. module: openBI
 #. openerp-web
@@ -132,7 +132,7 @@ msgstr "Australië"
 #: code:addons/openBI/static/src/xml/subcontinents.xml:23
 #, python-format
 msgid "Australia and New Zealand"
-msgstr "Australia and New Zealand"
+msgstr "Australië en Nieuw-Zeeland"
 
 #. module: openBI
 #. openerp-web
@@ -237,7 +237,7 @@ msgstr "Bolivia"
 #: code:addons/openBI/static/src/xml/countries.xml:95
 #, python-format
 msgid "Bosnia And Herzegovina"
-msgstr "Bosnia And Herzegovina"
+msgstr "Bosnië-Herzegovina"
 
 #. module: openBI
 #. openerp-web
@@ -279,7 +279,7 @@ msgstr "Burkina Faso"
 #: code:addons/openBI/static/src/xml/countries.xml:38
 #, python-format
 msgid "Burundi"
-msgstr "Burundi"
+msgstr "Boeroendi"
 
 #. module: openBI
 #. openerp-web
@@ -307,7 +307,7 @@ msgstr "Canada"
 #: code:addons/openBI/static/src/xml/countries.xml:16
 #, python-format
 msgid "Cape Verde"
-msgstr "Cape Verde"
+msgstr "Kaapverdië"
 
 #. module: openBI
 #. openerp-web
@@ -335,14 +335,14 @@ msgstr "Centraal-Afrikaanse Republiek"
 #: code:addons/openBI/static/src/xml/subcontinents.xml:16
 #, python-format
 msgid "Central America"
-msgstr "Central America"
+msgstr "Centraal Amerika"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:18
 #, python-format
 msgid "Central Asia"
-msgstr "Central Asia"
+msgstr "Centraal Azië"
 
 #. module: openBI
 #. openerp-web
@@ -433,28 +433,28 @@ msgstr "Costa Rica"
 #: code:addons/openBI/static/src/xml/countries.xml:15
 #, python-format
 msgid "Cote D'Ivoire"
-msgstr "Cote D'Ivoire"
+msgstr "Ivoorkust"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/base.xml:19
 #, python-format
 msgid "Count"
-msgstr "Count"
+msgstr "tellen"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/base.xml:44
 #, python-format
 msgid "Countries"
-msgstr "Countries"
+msgstr "landen"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/base.xml:55
 #, python-format
 msgid "Country"
-msgstr "Country"
+msgstr "land"
 
 #. module: openBI
 #. openerp-web
@@ -482,14 +482,14 @@ msgstr "Cyprus"
 #: code:addons/openBI/static/src/xml/countries.xml:85
 #, python-format
 msgid "Czech Republic"
-msgstr "Czech Republic"
+msgstr "Tsjechische Republiek"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/base.xml:85
 #, python-format
 msgid "Data Display"
-msgstr "Data Display"
+msgstr "Gegevensweergave"
 
 #. module: openBI
 #. openerp-web
@@ -545,21 +545,21 @@ msgstr "Dominicaanse Republiek"
 #: code:addons/openBI/static/src/xml/subcontinents.xml:8
 #, python-format
 msgid "Eastern Africa"
-msgstr "Eastern Africa"
+msgstr "Oost-Afrika"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:19
 #, python-format
 msgid "Eastern Asia"
-msgstr "Eastern Asia"
+msgstr "Oost Azië"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:12
 #, python-format
 msgid "Eastern Europe"
-msgstr "Eastern Europe"
+msgstr "Oost-Europa"
 
 #. module: openBI
 #. openerp-web
@@ -615,7 +615,7 @@ msgstr "Ethiopië"
 #: code:addons/openBI/static/src/xml/continents.xml:7
 #, python-format
 msgid "Europe"
-msgstr "Europe"
+msgstr "Europa"
 
 #. module: openBI
 #. openerp-web
@@ -818,7 +818,7 @@ msgstr "IJsland"
 #: code:addons/openBI/static/src/xml/countries.xml:172
 #, python-format
 msgid "India"
-msgstr "India"
+msgstr "Indië"
 
 #. module: openBI
 #. openerp-web
@@ -832,7 +832,7 @@ msgstr "Indonesië"
 #: code:addons/openBI/static/src/xml/countries.xml:173
 #, python-format
 msgid "Iran, Islamic Republic Of"
-msgstr "Iran, Islamic Republic Of"
+msgstr "Iran, Islamitische Republiek"
 
 #. module: openBI
 #. openerp-web
@@ -909,14 +909,14 @@ msgstr "Kiribati"
 #: code:addons/openBI/static/src/xml/countries.xml:164
 #, python-format
 msgid "Korea, Democratic People'S Republic Of"
-msgstr "Korea, Democratic People'S Republic Of"
+msgstr "Korea, Democratische Volksrepubliek"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/countries.xml:165
 #, python-format
 msgid "Korea, Republic Of"
-msgstr "Korea, Republic Of"
+msgstr "Korea, republiek van"
 
 #. module: openBI
 #. openerp-web
@@ -972,7 +972,7 @@ msgstr "Liberia"
 #: code:addons/openBI/static/src/xml/countries.xml:9
 #, python-format
 msgid "Libyan Arab Jamahiriya"
-msgstr "Libyan Arab Jamahiriya"
+msgstr "Libië"
 
 #. module: openBI
 #. openerp-web
@@ -1014,7 +1014,7 @@ msgstr "Macau"
 #: code:addons/openBI/static/src/xml/countries.xml:101
 #, python-format
 msgid "Macedonia, The Former Yugoslav Republic Of"
-msgstr "Macedonia, The Former Yugoslav Republic Of"
+msgstr "Macedonië, de voormalige Joegoslavische Republiek"
 
 #. module: openBI
 #. openerp-web
@@ -1063,7 +1063,7 @@ msgstr "Malta"
 #: code:addons/openBI/static/src/xml/base.xml:38
 #, python-format
 msgid "Markers"
-msgstr "Markers"
+msgstr "markers"
 
 #. module: openBI
 #. openerp-web
@@ -1098,7 +1098,7 @@ msgstr "Mauritius"
 #: code:addons/openBI/static/src/xml/countries.xml:54
 #, python-format
 msgid "Mayotte"
-msgstr "Mayotte"
+msgstr "mayotte"
 
 #. module: openBI
 #. openerp-web
@@ -1112,7 +1112,7 @@ msgstr "Measure"
 #: code:addons/openBI/static/src/xml/subcontinents.xml:24
 #, python-format
 msgid "Melanesia"
-msgstr "Melanesia"
+msgstr "Melanesië"
 
 #. module: openBI
 #. openerp-web
@@ -1140,21 +1140,21 @@ msgstr "Micronesia"
 #: code:addons/openBI/static/src/xml/countries.xml:213
 #, python-format
 msgid "Micronesia, Federated States Of"
-msgstr "Micronesia, Federated States Of"
+msgstr "Micronesië, Federale Staten van"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:7
 #, python-format
 msgid "Middle Africa"
-msgstr "Middle Africa"
+msgstr "Midden-Afrika"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/countries.xml:87
 #, python-format
 msgid "Moldova, Republic Of"
-msgstr "Moldova, Republic Of"
+msgstr "Moldova, Republiek"
 
 #. module: openBI
 #. openerp-web
@@ -1280,21 +1280,21 @@ msgstr "Norfolk"
 #: code:addons/openBI/static/src/xml/subcontinents.xml:6
 #, python-format
 msgid "Northern Africa"
-msgstr "Northern Africa"
+msgstr "Noord-Afrika"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:14
 #, python-format
 msgid "Northern America"
-msgstr "Northern America"
+msgstr "Noord-Amerika"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:10
 #, python-format
 msgid "Northern Europe"
-msgstr "Northern Europe"
+msgstr "Noord-Europa"
 
 #. module: openBI
 #. openerp-web
@@ -1315,7 +1315,7 @@ msgstr "Noorwegen"
 #: code:addons/openBI/static/src/xml/continents.xml:10
 #, python-format
 msgid "Oceania"
-msgstr "Oceania"
+msgstr "Oceanië"
 
 #. module: openBI
 #. openerp-web
@@ -1399,7 +1399,7 @@ msgstr "Polen"
 #: code:addons/openBI/static/src/xml/subcontinents.xml:26
 #, python-format
 msgid "Polynesia"
-msgstr "Polynesia"
+msgstr "Polynesië"
 
 #. module: openBI
 #. openerp-web
@@ -1420,7 +1420,7 @@ msgstr "Afdrukken"
 #: code:addons/openBI/static/src/xml/base.xml:45
 #, python-format
 msgid "Provinces"
-msgstr "Provinces"
+msgstr "provincies"
 
 #. module: openBI
 #. openerp-web
@@ -1434,7 +1434,7 @@ msgstr "Puerto Rico"
 #: code:addons/openBI/static/src/xml/countries.xml:200
 #, python-format
 msgid "Qatar"
-msgstr "Qatar"
+msgstr "Katar"
 
 #. module: openBI
 #. openerp-web
@@ -1448,14 +1448,14 @@ msgstr "Regio's"
 #: code:addons/openBI/static/src/xml/base.xml:42
 #, python-format
 msgid "Resolution"
-msgstr "Resolution"
+msgstr "Resolutie"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/countries.xml:48
 #, python-format
 msgid "Reunion"
-msgstr "Reunion"
+msgstr "Bijeenkomst"
 
 #. module: openBI
 #. openerp-web
@@ -1483,14 +1483,14 @@ msgstr "Rwanda"
 #: code:addons/openBI/static/src/xml/countries.xml:26
 #, python-format
 msgid "Saint Helena"
-msgstr "Saint Helena"
+msgstr "Sint Helena"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/countries.xml:123
 #, python-format
 msgid "Saint Kitts And Nevis"
-msgstr "Saint Kitts And Nevis"
+msgstr "Saint Kitts en Nevis"
 
 #. module: openBI
 #. openerp-web
@@ -1504,14 +1504,14 @@ msgstr "Saint Lucia"
 #: code:addons/openBI/static/src/xml/countries.xml:110
 #, python-format
 msgid "Saint Pierre And Miquelon"
-msgstr "Saint Pierre And Miquelon"
+msgstr "Saint Pierre en Miquelon"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/countries.xml:131
 #, python-format
 msgid "Saint Vincent And The Grenadines"
-msgstr "Saint Vincent And The Grenadines"
+msgstr "Saint Vincent en de Grenadines"
 
 #. module: openBI
 #. openerp-web
@@ -1532,7 +1532,7 @@ msgstr "San Marino"
 #: code:addons/openBI/static/src/xml/countries.xml:36
 #, python-format
 msgid "Sao Tome And Principe"
-msgstr "Sao Tome And Principe"
+msgstr "Sao Tomé en Principe"
 
 #. module: openBI
 #. openerp-web
@@ -1574,7 +1574,7 @@ msgstr "Singapore"
 #: code:addons/openBI/static/src/xml/countries.xml:91
 #, python-format
 msgid "Slovakia (Slovak Republic)"
-msgstr "Slovakia (Slovak Republic)"
+msgstr "Slowakije (Slowakije)"
 
 #. module: openBI
 #. openerp-web
@@ -1609,35 +1609,35 @@ msgstr "Zuid-Afrika"
 #: code:addons/openBI/static/src/xml/subcontinents.xml:17
 #, python-format
 msgid "South America"
-msgstr "South America"
+msgstr "Zuid-Amerika"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:21
 #, python-format
 msgid "South-Eastern Asia"
-msgstr "South-Eastern Asia"
+msgstr "Zuidoost-Azië"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:9
 #, python-format
 msgid "Southern Africa"
-msgstr "Southern Africa"
+msgstr "Zuid-Afrika"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:20
 #, python-format
 msgid "Southern Asia"
-msgstr "Southern Asia"
+msgstr "Zuid-Azië"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:13
 #, python-format
 msgid "Southern Europe"
-msgstr "Southern Europe"
+msgstr "Zuid-Europa"
 
 #. module: openBI
 #. openerp-web
@@ -1658,7 +1658,7 @@ msgstr "Sri Lanka"
 #: code:addons/openBI/static/src/xml/base.xml:52
 #, python-format
 msgid "Sub Continent"
-msgstr "Sub Continent"
+msgstr "Subcontinent"
 
 #. module: openBI
 #. openerp-web
@@ -1679,7 +1679,7 @@ msgstr "Suriname"
 #: code:addons/openBI/static/src/xml/countries.xml:73
 #, python-format
 msgid "Svalbard And Jan Mayen Islands"
-msgstr "Svalbard And Jan Mayen Islands"
+msgstr "Spitsbergen en Jan Mayen-eilanden"
 
 #. module: openBI
 #. openerp-web
@@ -1714,7 +1714,7 @@ msgstr "Syrië"
 #: code:addons/openBI/static/src/xml/countries.xml:168
 #, python-format
 msgid "Taiwan, Province Of China"
-msgstr "Taiwan, Province Of China"
+msgstr "Taiwan, provincie China"
 
 #. module: openBI
 #. openerp-web
@@ -1728,7 +1728,7 @@ msgstr "Tadzjikistan"
 #: code:addons/openBI/static/src/xml/countries.xml:52
 #, python-format
 msgid "Tanzania, United Republic Of"
-msgstr "Tanzania, United Republic Of"
+msgstr "Tanzania, Verenigde Republiek"
 
 #. module: openBI
 #. openerp-web
@@ -1749,7 +1749,7 @@ msgstr "Thailand"
 #: code:addons/openBI/static/src/xml/countries.xml:29
 #, python-format
 msgid "Togo"
-msgstr "Togo"
+msgstr "Gaan"
 
 #. module: openBI
 #. openerp-web
@@ -1770,7 +1770,7 @@ msgstr "Tonga"
 #: code:addons/openBI/static/src/xml/countries.xml:130
 #, python-format
 msgid "Trinidad And Tobago"
-msgstr "Trinidad And Tobago"
+msgstr "Trinidad en Tobago"
 
 #. module: openBI
 #. openerp-web
@@ -1798,7 +1798,7 @@ msgstr "Turkmenistan"
 #: code:addons/openBI/static/src/xml/countries.xml:129
 #, python-format
 msgid "Turks And Caicos Islands"
-msgstr "Turks And Caicos Islands"
+msgstr "Turks- en Caicoseilanden"
 
 #. module: openBI
 #. openerp-web
@@ -1833,14 +1833,14 @@ msgstr "Verenigde Arabische Emiraten"
 #: code:addons/openBI/static/src/xml/countries.xml:66
 #, python-format
 msgid "United Kingdom"
-msgstr "United Kingdom"
+msgstr "Verenigd Koningkrijk"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/countries.xml:111
 #, python-format
 msgid "United States"
-msgstr "United States"
+msgstr "Verenigde Staten"
 
 #. module: openBI
 #. openerp-web
@@ -1868,7 +1868,7 @@ msgstr "Vanuatu"
 #: code:addons/openBI/static/src/xml/countries.xml:106
 #, python-format
 msgid "Vatican City State (Holy See)"
-msgstr "Vatican City State (Holy See)"
+msgstr "Vaticaanstad (Heilige Stoel)"
 
 #. module: openBI
 #. openerp-web
@@ -1903,21 +1903,21 @@ msgstr "Amerikaanse Maagdeneilanden"
 #: code:addons/openBI/static/src/xml/countries.xml:228
 #, python-format
 msgid "Wallis And Futuna Islands"
-msgstr "Wallis And Futuna Islands"
+msgstr "Wallis en Futuna-eilanden"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:22
 #, python-format
 msgid "Western Asia"
-msgstr "Western Asia"
+msgstr "West-Azië"
 
 #. module: openBI
 #. openerp-web
 #: code:addons/openBI/static/src/xml/subcontinents.xml:11
 #, python-format
 msgid "Western Europe"
-msgstr "Western Europe"
+msgstr "West-Europa"
 
 #. module: openBI
 #. openerp-web
