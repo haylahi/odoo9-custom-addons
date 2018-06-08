@@ -8,7 +8,7 @@ odoo.define('oechart.Graphwidget', function (require) {
     var QWeb = core.qweb;
     
     // Global map options
-    var mapOptions = {tooltip: { trigger: 'selection' }};
+    let mapOptions = {tooltip: { trigger: 'selection' }};
 
     /**
      * Extends web.GraphWidget with the include method.
@@ -18,7 +18,7 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Main method displaying the map on geo chart button click.
          */
         display_geo: function () {
-            var self = this;
+            let self = this;
 
             self.initMap();
             google.charts.setOnLoadCallback(function () {
@@ -46,7 +46,7 @@ odoo.define('oechart.Graphwidget', function (require) {
         prepareDataMap: function () {
 
             // prepare data
-            var data, values,
+            let data, values,
             measure = this.fields[this.measure].string;
 
             // zero groupbys
@@ -72,7 +72,7 @@ odoo.define('oechart.Graphwidget', function (require) {
                 ];
             }
             if (this.groupbys.length > 1) {
-                var xlabels = [],
+                let xlabels = [],
                     series = [],
                     label, serie, value;
                 values = {};
@@ -89,7 +89,7 @@ odoo.define('oechart.Graphwidget', function (require) {
                 }
                 series = _.uniq(series);
                 data = [];
-                var current_serie, j;
+                let current_serie, j;
                 for (i = 0; i < series.length; i++) {
                     current_serie = {values: [], key: series[i]};
                     for (j = 0; j < xlabels.length; j++) {
@@ -103,7 +103,7 @@ odoo.define('oechart.Graphwidget', function (require) {
             }
 
             // Organize the data for the map
-            var features = [['Country', data[0].key]]
+            let features = [['Country', data[0].key]]
             data[0].values.forEach(e => {
                 features.push([e.x[0],e.y]);
             });
@@ -117,10 +117,10 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Draw the map and the table.
          */
         drawRegionsMap: function (features) {
-            var data = google.visualization.arrayToDataTable(features);
+            let data = google.visualization.arrayToDataTable(features);
 
-            var chart = new google.visualization.GeoChart(document.getElementById('map_div'));
-            var table = new google.visualization.Table(document.getElementById('table_div'));
+            let chart = new google.visualization.GeoChart(document.getElementById('map_div'));
+            let table = new google.visualization.Table(document.getElementById('table_div'));
     
             chart.draw(data, mapOptions);
             table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
@@ -147,7 +147,7 @@ odoo.define('oechart.Graphwidget', function (require) {
          * Transforms user input into a map configuration
          */
         prepareOptions: (optionStruct) => {
-            for(var key in optionStruct) {
+            for(let key in optionStruct) {
                 switch (key) {
                     case 'subcontinent':
                         if (optionStruct['subcontinent'] !== " ") { 

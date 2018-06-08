@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
     <t t-name="openBI.subcontinents">
-        <select class="select-subcontinents pull-right" name="subcontinent">
+        <select class="select-sortable select-subcontinents pull-right" name="subcontinent">
             <option value=" " data-tag=""></option>
             <option value="015" data-tag="002">Northern Africa</option>
             <option value="017" data-tag="002">Middle Africa</option>

@@ -12,16 +12,17 @@ odoo.define('oechart.GraphView',function (require) {
      */
     GraphView.include({
         events: {
-            'change .panel input': 'build_options',
-            'change .panel select': function () {
+            'change .mapView .panel input': 'build_options',
+            'change .mapView .panel select': function () {
                 this.select_set_state();
                 this.build_options();
+                //this.sort_options();
             },
             /**
              * Get the displayed map and creates a new page to print.
              */
-            'click #printMap': () => {
-                var mapWindow = window.open('', 'PRINT', 'height=400,width=600');
+            'click .mapView #printMap': () => {
+                let mapWindow = window.open('', 'PRINT', 'height=400,width=600');
                 mapWindow.document.write(document.getElementById('map_div').innerHTML);
                 mapWindow.document.close();
                 mapWindow.focus();
@@ -29,11 +30,27 @@ odoo.define('oechart.GraphView',function (require) {
                 mapWindow.close();
             },
         },
+        sort_options: () => {
+            let sorted;
+            $(".mapView .select-sortable")
+                .map(function () { 
+                    sorted = $(this)
+                                .children()
+                                .sort(function(a,b) {
+                                    if (a.text > b.text) return 1;
+                                    else if (a.text < b.text) return -1;
+                                    else return 0
+                                });
+                    $(this)
+                        .empty()
+                        .append(sorted);
+                });
+        },
         /**
          * Creates an option data structure to update the map based on user inputs.
          */
         build_options: function () {
-            var optionStruct = {};
+            let optionStruct = {};
             _.each($(".panel .list-group select"), e => {
                 optionStruct[$(e).attr("name")] = $(e).val();
             });

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
     <t t-name="openBI.countries">
-        <select class="select-countries pull-right" name="country">
+        <select class="select-sortable select-countries pull-right" name="country">
             <option value=" " ></option>
             <option value="DZ" data-ctag="002" data-tag="015">Algeria</option>
             <option value="EG" data-ctag="002" data-tag="015">Egypt</option>
