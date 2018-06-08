@@ -39,6 +39,13 @@
                                         <option value="text">Text</option>
                                     </select>
                                 </li>
+                                <li class="list-group-item">Resolution 
+                                    <select class="pull-right" name="resolution">
+                                        <option value="countries">Countries</option>
+                                        <option value="provinces">Provinces</option>
+                                        <option value="metro">Metro</option>
+                                    </select>
+                                </li>
                                 <li class="list-group-item">Continent 
                                     <t t-call="openBI.continents"></t>
                                 </li>
