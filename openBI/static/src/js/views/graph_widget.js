@@ -45,8 +45,9 @@ odoo.define('oechart.Graphwidget', function (require) {
     prepareDataMap: function () {
 
       // prepare data
-      let data, values,
+      let data, values, features,
       measure = this.fields[this.measure].string;
+      features = [];
 
       // zero groupbys
       if (this.groupbys.length === 0) {
@@ -56,56 +57,50 @@ odoo.define('oechart.Graphwidget', function (require) {
             y: this.data[0].value}],
           key: measure
         }];
+        features = [[this.groupbys[0], data[0].key]]
       } 
 
       // one groupby
       if (this.groupbys.length === 1) {
-          values = this.data.map(function (datapt) {
-            return {x: datapt.labels, y: datapt.value};
-          });
+        values = this.data.map(function (datapt) {
+          return {x: datapt.labels[0], y: datapt.value};
+        });
+        data = [
+          {
+            values: values,
+            key: measure,
+          }
+        ];
+        features = [[this.groupbys[0], data[0].key]]
+      }
+      
+      if (this.groupbys.length > 1) {
+        if(isNaN(this.data[0].labels[0])) {
           data = [
             {
-              values: values,
+              values: this.data.map(d => { return { x:d.labels[0], y: d.value } }),
               key: measure,
             }
-          ];
-      }
-      if (this.groupbys.length > 1) {
-          let xlabels = [],
-            series = [],
-            label, serie, value;
-          values = {};
-          for (var i = 0; i < this.data.length; i++) {
-            label = this.data[i].labels[0];
-            serie = this.data[i].labels[1];
-            value = this.data[i].value;
-            if ((!xlabels.length) || (xlabels[xlabels.length-1] !== label)) {
-                xlabels.push(label);
+          ]
+          features = [[this.groupbys[0], data[0].key]]
+        } else {
+          data = [
+            {
+              values: this.data.map(d => { return { x:[d.labels[0],d.labels[1]], y: d.value } }),
+              key: measure,
             }
-            series.push(this.data[i].labels[1]);
-            if (!(serie in values)) {values[serie] = {};}
-            values[serie][label] = this.data[i].value;
-          }
-          series = _.uniq(series);
-          data = [];
-          let current_serie, j;
-          for (i = 0; i < series.length; i++) {
-            current_serie = {values: [], key: series[i]};
-            for (j = 0; j < xlabels.length; j++) {
-                current_serie.values.push({
-                    x: xlabels[j],
-                    y: values[series[i]][xlabels[j]] || 0,
-                });
-            }
-            data.push(current_serie);
-          }
+          ]
+          features = [[this.groupbys[0],this.groupbys[1], data[0].key]]
+        }
       }
-
+      
       // Organize the data for the map
-      let features = [['Country', data[0].key]]
+      console.log(data);
       data[0].values.forEach(e => {
-        features.push([e.x[0],e.y]);
+        e.x.constructor === Array ? features.push([e.x[0],e.x[1],e.y]): features.push([e.x,e.y]);
       });
+      console.log(features)
+
 
       return features;
     },
@@ -171,7 +166,6 @@ odoo.define('oechart.Graphwidget', function (require) {
         table.setSelection(chart.getSelection())
       });
       google.visualization.events.addListener(chart, 'error', function (err) {
-        //google.visualization.errors.removeError(err.id);
         jQuery('<a/>', {
           href: '#',
           class: 'close',
