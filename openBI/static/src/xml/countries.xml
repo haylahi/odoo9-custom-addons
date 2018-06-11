@@ -1,232 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
-    <t t-name="openBI.countries">
-        <select class="select-sortable select-countries pull-right" name="country">
-            <option value=" " ></option>
-            <option value="DZ" data-ctag="002" data-tag="015">Algeria</option>
-            <option value="EG" data-ctag="002" data-tag="015">Egypt</option>
-            <option value="EH" data-ctag="002" data-tag="015">Western Sahara</option>
-            <option value="LY" data-ctag="002" data-tag="015">Libyan Arab Jamahiriya</option>
-            <option value="MA" data-ctag="002" data-tag="015">Morocco</option>
-            <option value="SD" data-ctag="002" data-tag="015">Sudan</option>
-            <option value="TN" data-ctag="002" data-tag="015">Tunisia</option>
-            <option value="BF" data-ctag="002" data-tag="011">Burkina Faso</option>
-            <option value="BJ" data-ctag="002" data-tag="011">Benin</option>
-            <option value="CI" data-ctag="002" data-tag="011">Cote D'Ivoire</option>
-            <option value="CV" data-ctag="002" data-tag="011">Cape Verde</option>
-            <option value="GH" data-ctag="002" data-tag="011">Ghana</option>
-            <option value="GM" data-ctag="002" data-tag="011">Gambia</option>
-            <option value="GN" data-ctag="002" data-tag="011">Guinea</option>
-            <option value="GW" data-ctag="002" data-tag="011">Guinea-Bissau</option>
-            <option value="LR" data-ctag="002" data-tag="011">Liberia</option>
-            <option value="ML" data-ctag="002" data-tag="011">Mali</option>
-            <option value="MR" data-ctag="002" data-tag="011">Mauritania</option>
-            <option value="NE" data-ctag="002" data-tag="011">Niger</option>
-            <option value="NG" data-ctag="002" data-tag="011">Nigeria</option>
-            <option value="SH" data-ctag="002" data-tag="011">Saint Helena</option>
-            <option value="SL" data-ctag="002" data-tag="011">Sierra Leone</option>
-            <option value="SN" data-ctag="002" data-tag="011">Senegal</option>
-            <option value="TG" data-ctag="002" data-tag="011">Togo</option>
-            <option value="AO" data-ctag="002" data-tag="017">Angola</option>
-            <option value="CF" data-ctag="002" data-tag="017">Central African Republic</option>
-            <option value="CG" data-ctag="002" data-tag="017">Congo</option>
-            <option value="CM" data-ctag="002" data-tag="017">Cameroon</option>
-            <option value="GA" data-ctag="002" data-tag="017">Gabon</option>
-            <option value="GQ" data-ctag="002" data-tag="017">Equatorial Guinea</option>
-            <option value="ST" data-ctag="002" data-tag="017">Sao Tome And Principe</option>
-            <option value="TD" data-ctag="002" data-tag="017">Chad</option>
-            <option value="BI" data-ctag="002" data-tag="014">Burundi</option>
-            <option value="DJ" data-ctag="002" data-tag="014">Djibouti</option>
-            <option value="ER" data-ctag="002" data-tag="014">Eritrea</option>
-            <option value="ET" data-ctag="002" data-tag="014">Ethiopia</option>
-            <option value="KE" data-ctag="002" data-tag="014">Kenya</option>
-            <option value="KM" data-ctag="002" data-tag="014">Comoros</option>
-            <option value="MG" data-ctag="002" data-tag="014">Madagascar</option>
-            <option value="MU" data-ctag="002" data-tag="014">Mauritius</option>
-            <option value="MW" data-ctag="002" data-tag="014">Malawi</option>
-            <option value="MZ" data-ctag="002" data-tag="014">Mozambique</option>
-            <option value="RE" data-ctag="002" data-tag="014">Reunion</option>
-            <option value="RW" data-ctag="002" data-tag="014">Rwanda</option>
-            <option value="SC" data-ctag="002" data-tag="014">Seychelles</option>
-            <option value="SO" data-ctag="002" data-tag="014">Somalia</option>
-            <option value="TZ" data-ctag="002" data-tag="014">Tanzania, United Republic Of</option>
-            <option value="UG" data-ctag="002" data-tag="014">Uganda</option>
-            <option value="YT" data-ctag="002" data-tag="014">Mayotte</option>
-            <option value="ZM" data-ctag="002" data-tag="014">Zambia</option>
-            <option value="ZW" data-ctag="002" data-tag="014">Zimbabwe</option>
-            <option value="BW" data-ctag="002" data-tag="018">Botswana</option>
-            <option value="LS" data-ctag="002" data-tag="018">Lesotho</option>
-            <option value="NA" data-ctag="002" data-tag="018">Namibia</option>
-            <option value="SZ" data-ctag="002" data-tag="018">Swaziland</option>
-            <option value="ZA" data-ctag="002" data-tag="018">South Africa</option>
-            <option value="DK" data-ctag="150" data-tag="154">Denmark</option>
-            <option value="EE" data-ctag="150" data-tag="154">Estonia</option>
-            <option value="FI" data-ctag="150" data-tag="154">Finland</option>
-            <option value="FO" data-ctag="150" data-tag="154">Faroe Islands</option>
-            <option value="GB" data-ctag="150" data-tag="154">United Kingdom</option>
-            <option value="IE" data-ctag="150" data-tag="154">Ireland</option>
-            <option value="IS" data-ctag="150" data-tag="154">Iceland</option>
-            <option value="LT" data-ctag="150" data-tag="154">Lithuania</option>
-            <option value="LV" data-ctag="150" data-tag="154">Latvia</option>
-            <option value="NO" data-ctag="150" data-tag="154">Norway</option>
-            <option value="SE" data-ctag="150" data-tag="154">Sweden</option>
-            <option value="SJ" data-ctag="150" data-tag="154">Svalbard And Jan Mayen Islands</option>
-            <option value="AT" data-ctag="150" data-tag="155">Austria</option>
-            <option value="BE" data-ctag="150" data-tag="155">Belgium</option>
-            <option value="CH" data-ctag="150" data-tag="155">Switzerland</option>
-            <option value="DE" data-ctag="150" data-tag="155">Germany</option>
-            <option value="FR" data-ctag="150" data-tag="155">France</option>
-            <option value="LI" data-ctag="150" data-tag="155">Liechtenstein</option>
-            <option value="LU" data-ctag="150" data-tag="155">Luxembourg</option>
-            <option value="MC" data-ctag="150" data-tag="155">Monaco</option>
-            <option value="NL" data-ctag="150" data-tag="155">Netherlands</option>
-            <option value="BG" data-ctag="150" data-tag="151">Bulgaria</option>
-            <option value="BY" data-ctag="150" data-tag="151">Belarus</option>
-            <option value="CZ" data-ctag="150" data-tag="151">Czech Republic</option>
-            <option value="HU" data-ctag="150" data-tag="151">Hungary</option>
-            <option value="MD" data-ctag="150" data-tag="151">Moldova, Republic Of</option>
-            <option value="PL" data-ctag="150" data-tag="151">Poland</option>
-            <option value="RO" data-ctag="150" data-tag="151">Romania</option>
-            <option value="RU" data-ctag="150" data-tag="151">Russian Federation</option>
-            <option value="SK" data-ctag="150" data-tag="151">Slovakia (Slovak Republic)</option>
-            <option value="UA" data-ctag="150" data-tag="151">Ukraine</option>
-            <option value="AD" data-ctag="150" data-tag="039">Andorra</option>
-            <option value="AL" data-ctag="150" data-tag="039">Albania</option>
-            <option value="BA" data-ctag="150" data-tag="039">Bosnia And Herzegovina</option>
-            <option value="ES" data-ctag="150" data-tag="039">Spain</option>
-            <option value="GI" data-ctag="150" data-tag="039">Gibraltar</option>
-            <option value="GR" data-ctag="150" data-tag="039">Greece</option>
-            <option value="HR" data-ctag="150" data-tag="039">Croatia</option>
-            <option value="IT" data-ctag="150" data-tag="039">Italy</option>
-            <option value="MK" data-ctag="150" data-tag="039">Macedonia, The Former Yugoslav Republic Of</option>
-            <option value="MT" data-ctag="150" data-tag="039">Malta</option>
-            <option value="PT" data-ctag="150" data-tag="039">Portugal</option>
-            <option value="SI" data-ctag="150" data-tag="039">Slovenia</option>
-            <option value="SM" data-ctag="150" data-tag="039">San Marino</option>
-            <option value="VA" data-ctag="150" data-tag="039">Vatican City State (Holy See)</option>
-            <option value="BM" data-ctag="019" data-tag="021">Bermuda</option>
-            <option value="CA" data-ctag="019" data-tag="021">Canada</option>
-            <option value="GL" data-ctag="019" data-tag="021">Greenland</option>
-            <option value="PM" data-ctag="019" data-tag="021">Saint Pierre And Miquelon</option>
-            <option value="US" data-ctag="019" data-tag="021">United States</option>
-            <option value="AG" data-ctag="019" data-tag="029">Antigua And Barbuda</option>
-            <option value="AI" data-ctag="019" data-tag="029">Anguilla</option>
-            <option value="AW" data-ctag="019" data-tag="029">Aruba</option>
-            <option value="BB" data-ctag="019" data-tag="029">Barbados</option>
-            <option value="CU" data-ctag="019" data-tag="029">Cuba</option>
-            <option value="DM" data-ctag="019" data-tag="029">Dominica</option>
-            <option value="DO" data-ctag="019" data-tag="029">Dominican Republic</option>
-            <option value="GD" data-ctag="019" data-tag="029">Grenada</option>
-            <option value="GP" data-ctag="019" data-tag="029">Guadeloupe</option>
-            <option value="HT" data-ctag="019" data-tag="029">Haiti</option>
-            <option value="JM" data-ctag="019" data-tag="029">Jamaica</option>
-            <option value="KN" data-ctag="019" data-tag="029">Saint Kitts And Nevis</option>
-            <option value="KY" data-ctag="019" data-tag="029">Cayman Islands</option>
-            <option value="LC" data-ctag="019" data-tag="029">Saint Lucia</option>
-            <option value="MQ" data-ctag="019" data-tag="029">Martinique</option>
-            <option value="MS" data-ctag="019" data-tag="029">Montserrat</option>
-            <option value="PR" data-ctag="019" data-tag="029">Puerto Rico</option>
-            <option value="TC" data-ctag="019" data-tag="029">Turks And Caicos Islands</option>
-            <option value="TT" data-ctag="019" data-tag="029">Trinidad And Tobago</option>
-            <option value="VC" data-ctag="019" data-tag="029">Saint Vincent And The Grenadines</option>
-            <option value="VG" data-ctag="019" data-tag="029">Virgin Islands (British)</option>
-            <option value="VI" data-ctag="019" data-tag="029">Virgin Islands (U.S.)</option>
-            <option value="BZ" data-ctag="019" data-tag="013">Belize</option>
-            <option value="CR" data-ctag="019" data-tag="013">Costa Rica</option>
-            <option value="GT" data-ctag="019" data-tag="013">Guatemala</option>
-            <option value="HN" data-ctag="019" data-tag="013">Honduras</option>
-            <option value="MX" data-ctag="019" data-tag="013">Mexico</option>
-            <option value="NI" data-ctag="019" data-tag="013">Nicaragua</option>
-            <option value="PA" data-ctag="019" data-tag="013">Panama</option>
-            <option value="SV" data-ctag="019" data-tag="013">El Salvador</option>
-            <option value="AR" data-ctag="019" data-tag="005">Argentina</option>
-            <option value="BO" data-ctag="019" data-tag="005">Bolivia</option>
-            <option value="BR" data-ctag="019" data-tag="005">Brazil</option>
-            <option value="CL" data-ctag="019" data-tag="005">Chile</option>
-            <option value="CO" data-ctag="019" data-tag="005">Colombia</option>
-            <option value="EC" data-ctag="019" data-tag="005">Ecuador</option>
-            <option value="FK" data-ctag="019" data-tag="005">Falkland Islands (Malvinas)</option>
-            <option value="GF" data-ctag="019" data-tag="005">French Guiana</option>
-            <option value="GY" data-ctag="019" data-tag="005">Guyana</option>
-            <option value="PE" data-ctag="019" data-tag="005">Peru</option>
-            <option value="PY" data-ctag="019" data-tag="005">Paraguay</option>
-            <option value="SR" data-ctag="019" data-tag="005">Suriname</option>
-            <option value="UY" data-ctag="019" data-tag="005">Uruguay</option>
-            <option value="VE" data-ctag="019" data-tag="005">Venezuela</option>
-            <option value="TM" data-ctag="142" data-tag="143">Turkmenistan</option>
-            <option value="TJ" data-ctag="142" data-tag="143">Tajikistan</option>
-            <option value="KG" data-ctag="142" data-tag="143">Kyrgyzstan</option>
-            <option value="KZ" data-ctag="142" data-tag="143">Kazakhstan</option>
-            <option value="UZ" data-ctag="142" data-tag="143">Uzbekistan</option>
-            <option value="CN" data-ctag="142" data-tag="030">China</option>
-            <option value="HK" data-ctag="142" data-tag="030">Hong Kong</option>
-            <option value="JP" data-ctag="142" data-tag="030">Japan</option>
-            <option value="KP" data-ctag="142" data-tag="030">Korea, Democratic People'S Republic Of</option>
-            <option value="KR" data-ctag="142" data-tag="030">Korea, Republic Of</option>
-            <option value="MN" data-ctag="142" data-tag="030">Mongolia</option>
-            <option value="MO" data-ctag="142" data-tag="030">Macau</option>
-            <option value="TW" data-ctag="142" data-tag="030">Taiwan, Province Of China</option>
-            <option value="AF" data-ctag="142" data-tag="034">Afghanistan</option>
-            <option value="BD" data-ctag="142" data-tag="034">Bangladesh</option>
-            <option value="BT" data-ctag="142" data-tag="034">Bhutan</option>
-            <option value="IN" data-ctag="142" data-tag="034">India</option>
-            <option value="IR" data-ctag="142" data-tag="034">Iran, Islamic Republic Of</option>
-            <option value="LK" data-ctag="142" data-tag="034">Sri Lanka</option>
-            <option value="MV" data-ctag="142" data-tag="034">Maldives</option>
-            <option value="NP" data-ctag="142" data-tag="034">Nepal</option>
-            <option value="PK" data-ctag="142" data-tag="034">Pakistan</option>
-            <option value="BN" data-ctag="142" data-tag="035">Brunei Darussalam</option>
-            <option value="ID" data-ctag="142" data-tag="035">Indonesia</option>
-            <option value="KH" data-ctag="142" data-tag="035">Cambodia</option>
-            <option value="LA" data-ctag="142" data-tag="035">Lao People's Democratic Republic</option>
-            <option value="MM" data-ctag="142" data-tag="035">Myanmar</option>
-            <option value="MY" data-ctag="142" data-tag="035">Malaysia</option>
-            <option value="PH" data-ctag="142" data-tag="035">Philippines</option>
-            <option value="SG" data-ctag="142" data-tag="035">Singapore</option>
-            <option value="TH" data-ctag="142" data-tag="035">Thailand</option>
-            <option value="VN" data-ctag="142" data-tag="035">Vietnam</option>
-            <option value="AE" data-ctag="142" data-tag="145">United Arab Emirates</option>
-            <option value="AM" data-ctag="142" data-tag="145">Armenia</option>
-            <option value="AZ" data-ctag="142" data-tag="145">Azerbaijan</option>
-            <option value="BH" data-ctag="142" data-tag="145">Bahrain</option>
-            <option value="CY" data-ctag="142" data-tag="145">Cyprus</option>
-            <option value="GE" data-ctag="142" data-tag="145">Georgia</option>
-            <option value="IL" data-ctag="142" data-tag="145">Israel</option>
-            <option value="IQ" data-ctag="142" data-tag="145">Iraq</option>
-            <option value="JO" data-ctag="142" data-tag="145">Jordan</option>
-            <option value="KW" data-ctag="142" data-tag="145">Kuwait</option>
-            <option value="LB" data-ctag="142" data-tag="145">Lebanon</option>
-            <option value="OM" data-ctag="142" data-tag="145">Oman</option>
-            <option value="QA" data-ctag="142" data-tag="145">Qatar</option>
-            <option value="SA" data-ctag="142" data-tag="145">Saudi Arabia</option>
-            <option value="SY" data-ctag="142" data-tag="145">Syrian Arab Republic</option>
-            <option value="TR" data-ctag="142" data-tag="145">Turkey</option>
-            <option value="YE" data-ctag="142" data-tag="145">Yemen</option>
-            <option value="AU" data-ctag="009" data-tag="053">Australia</option>
-            <option value="NF" data-ctag="009" data-tag="053">Norfolk Island</option>
-            <option value="NZ" data-ctag="009" data-tag="053">New Zealand</option>
-            <option value="FJ" data-ctag="009" data-tag="054">Fiji</option>
-            <option value="NC" data-ctag="009" data-tag="054">New Caledonia</option>
-            <option value="PG" data-ctag="009" data-tag="054">Papua New Guinea</option>
-            <option value="SB" data-ctag="009" data-tag="054">Solomon Islands</option>
-            <option value="VU" data-ctag="009" data-tag="054">Vanuatu</option>
-            <option value="FM" data-ctag="009" data-tag="057">Micronesia, Federated States Of</option>
-            <option value="GU" data-ctag="009" data-tag="057">Guam</option>
-            <option value="KI" data-ctag="009" data-tag="057">Kiribati</option>
-            <option value="MH" data-ctag="009" data-tag="057">Marshall Islands</option>
-            <option value="MP" data-ctag="009" data-tag="057">Northern Mariana Islands</option>
-            <option value="NR" data-ctag="009" data-tag="057">Nauru</option>
-            <option value="PW" data-ctag="009" data-tag="057">Palau</option>
-            <option value="AS" data-ctag="009" data-tag="061">American Samoa</option>
-            <option value="CK" data-ctag="009" data-tag="061">Cook Islands</option>
-            <option value="NU" data-ctag="009" data-tag="061">Niue</option>
-            <option value="PF" data-ctag="009" data-tag="061">French Polynesia</option>
-            <option value="PN" data-ctag="009" data-tag="061">Pitcairn</option>
-            <option value="TK" data-ctag="009" data-tag="061">Tokelau</option>
-            <option value="TO" data-ctag="009" data-tag="061">Tonga</option>
-            <option value="TV" data-ctag="009" data-tag="061">Tuvalu</option>
-            <option value="WF" data-ctag="009" data-tag="061">Wallis And Futuna Islands</option>
-            <option value="WS" data-ctag="009" data-tag="061">Samoa</option>
-        </select>
-    </t>
+  <t t-name="openBI.countries">
+    <select class="select-sortable select-countries pull-right" name="country">
+      <option value=" " ></option>
+      <option value="DZ" data-ctag="002" data-tag="015">Algeria</option>
+      <option value="EG" data-ctag="002" data-tag="015">Egypt</option>
+      <option value="EH" data-ctag="002" data-tag="015">Western Sahara</option>
+      <option value="LY" data-ctag="002" data-tag="015">Libyan Arab Jamahiriya</option>
+      <option value="MA" data-ctag="002" data-tag="015">Morocco</option>
+      <option value="SD" data-ctag="002" data-tag="015">Sudan</option>
+      <option value="TN" data-ctag="002" data-tag="015">Tunisia</option>
+      <option value="BF" data-ctag="002" data-tag="011">Burkina Faso</option>
+      <option value="BJ" data-ctag="002" data-tag="011">Benin</option>
+      <option value="CI" data-ctag="002" data-tag="011">Cote D'Ivoire</option>
+      <option value="CV" data-ctag="002" data-tag="011">Cape Verde</option>
+      <option value="GH" data-ctag="002" data-tag="011">Ghana</option>
+      <option value="GM" data-ctag="002" data-tag="011">Gambia</option>
+      <option value="GN" data-ctag="002" data-tag="011">Guinea</option>
+      <option value="GW" data-ctag="002" data-tag="011">Guinea-Bissau</option>
+      <option value="LR" data-ctag="002" data-tag="011">Liberia</option>
+      <option value="ML" data-ctag="002" data-tag="011">Mali</option>
+      <option value="MR" data-ctag="002" data-tag="011">Mauritania</option>
+      <option value="NE" data-ctag="002" data-tag="011">Niger</option>
+      <option value="NG" data-ctag="002" data-tag="011">Nigeria</option>
+      <option value="SH" data-ctag="002" data-tag="011">Saint Helena</option>
+      <option value="SL" data-ctag="002" data-tag="011">Sierra Leone</option>
+      <option value="SN" data-ctag="002" data-tag="011">Senegal</option>
+      <option value="TG" data-ctag="002" data-tag="011">Togo</option>
+      <option value="AO" data-ctag="002" data-tag="017">Angola</option>
+      <option value="CF" data-ctag="002" data-tag="017">Central African Republic</option>
+      <option value="CG" data-ctag="002" data-tag="017">Congo</option>
+      <option value="CM" data-ctag="002" data-tag="017">Cameroon</option>
+      <option value="GA" data-ctag="002" data-tag="017">Gabon</option>
+      <option value="GQ" data-ctag="002" data-tag="017">Equatorial Guinea</option>
+      <option value="ST" data-ctag="002" data-tag="017">Sao Tome And Principe</option>
+      <option value="TD" data-ctag="002" data-tag="017">Chad</option>
+      <option value="BI" data-ctag="002" data-tag="014">Burundi</option>
+      <option value="DJ" data-ctag="002" data-tag="014">Djibouti</option>
+      <option value="ER" data-ctag="002" data-tag="014">Eritrea</option>
+      <option value="ET" data-ctag="002" data-tag="014">Ethiopia</option>
+      <option value="KE" data-ctag="002" data-tag="014">Kenya</option>
+      <option value="KM" data-ctag="002" data-tag="014">Comoros</option>
+      <option value="MG" data-ctag="002" data-tag="014">Madagascar</option>
+      <option value="MU" data-ctag="002" data-tag="014">Mauritius</option>
+      <option value="MW" data-ctag="002" data-tag="014">Malawi</option>
+      <option value="MZ" data-ctag="002" data-tag="014">Mozambique</option>
+      <option value="RE" data-ctag="002" data-tag="014">Reunion</option>
+      <option value="RW" data-ctag="002" data-tag="014">Rwanda</option>
+      <option value="SC" data-ctag="002" data-tag="014">Seychelles</option>
+      <option value="SO" data-ctag="002" data-tag="014">Somalia</option>
+      <option value="TZ" data-ctag="002" data-tag="014">Tanzania, United Republic Of</option>
+      <option value="UG" data-ctag="002" data-tag="014">Uganda</option>
+      <option value="YT" data-ctag="002" data-tag="014">Mayotte</option>
+      <option value="ZM" data-ctag="002" data-tag="014">Zambia</option>
+      <option value="ZW" data-ctag="002" data-tag="014">Zimbabwe</option>
+      <option value="BW" data-ctag="002" data-tag="018">Botswana</option>
+      <option value="LS" data-ctag="002" data-tag="018">Lesotho</option>
+      <option value="NA" data-ctag="002" data-tag="018">Namibia</option>
+      <option value="SZ" data-ctag="002" data-tag="018">Swaziland</option>
+      <option value="ZA" data-ctag="002" data-tag="018">South Africa</option>
+      <option value="DK" data-ctag="150" data-tag="154">Denmark</option>
+      <option value="EE" data-ctag="150" data-tag="154">Estonia</option>
+      <option value="FI" data-ctag="150" data-tag="154">Finland</option>
+      <option value="FO" data-ctag="150" data-tag="154">Faroe Islands</option>
+      <option value="GB" data-ctag="150" data-tag="154">United Kingdom</option>
+      <option value="IE" data-ctag="150" data-tag="154">Ireland</option>
+      <option value="IS" data-ctag="150" data-tag="154">Iceland</option>
+      <option value="LT" data-ctag="150" data-tag="154">Lithuania</option>
+      <option value="LV" data-ctag="150" data-tag="154">Latvia</option>
+      <option value="NO" data-ctag="150" data-tag="154">Norway</option>
+      <option value="SE" data-ctag="150" data-tag="154">Sweden</option>
+      <option value="SJ" data-ctag="150" data-tag="154">Svalbard And Jan Mayen Islands</option>
+      <option value="AT" data-ctag="150" data-tag="155">Austria</option>
+      <option value="BE" data-ctag="150" data-tag="155">Belgium</option>
+      <option value="CH" data-ctag="150" data-tag="155">Switzerland</option>
+      <option value="DE" data-ctag="150" data-tag="155">Germany</option>
+      <option value="FR" data-ctag="150" data-tag="155">France</option>
+      <option value="LI" data-ctag="150" data-tag="155">Liechtenstein</option>
+      <option value="LU" data-ctag="150" data-tag="155">Luxembourg</option>
+      <option value="MC" data-ctag="150" data-tag="155">Monaco</option>
+      <option value="NL" data-ctag="150" data-tag="155">Netherlands</option>
+      <option value="BG" data-ctag="150" data-tag="151">Bulgaria</option>
+      <option value="BY" data-ctag="150" data-tag="151">Belarus</option>
+      <option value="CZ" data-ctag="150" data-tag="151">Czech Republic</option>
+      <option value="HU" data-ctag="150" data-tag="151">Hungary</option>
+      <option value="MD" data-ctag="150" data-tag="151">Moldova, Republic Of</option>
+      <option value="PL" data-ctag="150" data-tag="151">Poland</option>
+      <option value="RO" data-ctag="150" data-tag="151">Romania</option>
+      <option value="RU" data-ctag="150" data-tag="151">Russian Federation</option>
+      <option value="SK" data-ctag="150" data-tag="151">Slovakia (Slovak Republic)</option>
+      <option value="UA" data-ctag="150" data-tag="151">Ukraine</option>
+      <option value="AD" data-ctag="150" data-tag="039">Andorra</option>
+      <option value="AL" data-ctag="150" data-tag="039">Albania</option>
+      <option value="BA" data-ctag="150" data-tag="039">Bosnia And Herzegovina</option>
+      <option value="ES" data-ctag="150" data-tag="039">Spain</option>
+      <option value="GI" data-ctag="150" data-tag="039">Gibraltar</option>
+      <option value="GR" data-ctag="150" data-tag="039">Greece</option>
+      <option value="HR" data-ctag="150" data-tag="039">Croatia</option>
+      <option value="IT" data-ctag="150" data-tag="039">Italy</option>
+      <option value="MK" data-ctag="150" data-tag="039">Macedonia, The Former Yugoslav Republic Of</option>
+      <option value="MT" data-ctag="150" data-tag="039">Malta</option>
+      <option value="PT" data-ctag="150" data-tag="039">Portugal</option>
+      <option value="SI" data-ctag="150" data-tag="039">Slovenia</option>
+      <option value="SM" data-ctag="150" data-tag="039">San Marino</option>
+      <option value="VA" data-ctag="150" data-tag="039">Vatican City State (Holy See)</option>
+      <option value="BM" data-ctag="019" data-tag="021">Bermuda</option>
+      <option value="CA" data-ctag="019" data-tag="021">Canada</option>
+      <option value="GL" data-ctag="019" data-tag="021">Greenland</option>
+      <option value="PM" data-ctag="019" data-tag="021">Saint Pierre And Miquelon</option>
+      <option value="US" data-ctag="019" data-tag="021">United States</option>
+      <option value="AG" data-ctag="019" data-tag="029">Antigua And Barbuda</option>
+      <option value="AI" data-ctag="019" data-tag="029">Anguilla</option>
+      <option value="AW" data-ctag="019" data-tag="029">Aruba</option>
+      <option value="BB" data-ctag="019" data-tag="029">Barbados</option>
+      <option value="CU" data-ctag="019" data-tag="029">Cuba</option>
+      <option value="DM" data-ctag="019" data-tag="029">Dominica</option>
+      <option value="DO" data-ctag="019" data-tag="029">Dominican Republic</option>
+      <option value="GD" data-ctag="019" data-tag="029">Grenada</option>
+      <option value="GP" data-ctag="019" data-tag="029">Guadeloupe</option>
+      <option value="HT" data-ctag="019" data-tag="029">Haiti</option>
+      <option value="JM" data-ctag="019" data-tag="029">Jamaica</option>
+      <option value="KN" data-ctag="019" data-tag="029">Saint Kitts And Nevis</option>
+      <option value="KY" data-ctag="019" data-tag="029">Cayman Islands</option>
+      <option value="LC" data-ctag="019" data-tag="029">Saint Lucia</option>
+      <option value="MQ" data-ctag="019" data-tag="029">Martinique</option>
+      <option value="MS" data-ctag="019" data-tag="029">Montserrat</option>
+      <option value="PR" data-ctag="019" data-tag="029">Puerto Rico</option>
+      <option value="TC" data-ctag="019" data-tag="029">Turks And Caicos Islands</option>
+      <option value="TT" data-ctag="019" data-tag="029">Trinidad And Tobago</option>
+      <option value="VC" data-ctag="019" data-tag="029">Saint Vincent And The Grenadines</option>
+      <option value="VG" data-ctag="019" data-tag="029">Virgin Islands (British)</option>
+      <option value="VI" data-ctag="019" data-tag="029">Virgin Islands (U.S.)</option>
+      <option value="BZ" data-ctag="019" data-tag="013">Belize</option>
+      <option value="CR" data-ctag="019" data-tag="013">Costa Rica</option>
+      <option value="GT" data-ctag="019" data-tag="013">Guatemala</option>
+      <option value="HN" data-ctag="019" data-tag="013">Honduras</option>
+      <option value="MX" data-ctag="019" data-tag="013">Mexico</option>
+      <option value="NI" data-ctag="019" data-tag="013">Nicaragua</option>
+      <option value="PA" data-ctag="019" data-tag="013">Panama</option>
+      <option value="SV" data-ctag="019" data-tag="013">El Salvador</option>
+      <option value="AR" data-ctag="019" data-tag="005">Argentina</option>
+      <option value="BO" data-ctag="019" data-tag="005">Bolivia</option>
+      <option value="BR" data-ctag="019" data-tag="005">Brazil</option>
+      <option value="CL" data-ctag="019" data-tag="005">Chile</option>
+      <option value="CO" data-ctag="019" data-tag="005">Colombia</option>
+      <option value="EC" data-ctag="019" data-tag="005">Ecuador</option>
+      <option value="FK" data-ctag="019" data-tag="005">Falkland Islands (Malvinas)</option>
+      <option value="GF" data-ctag="019" data-tag="005">French Guiana</option>
+      <option value="GY" data-ctag="019" data-tag="005">Guyana</option>
+      <option value="PE" data-ctag="019" data-tag="005">Peru</option>
+      <option value="PY" data-ctag="019" data-tag="005">Paraguay</option>
+      <option value="SR" data-ctag="019" data-tag="005">Suriname</option>
+      <option value="UY" data-ctag="019" data-tag="005">Uruguay</option>
+      <option value="VE" data-ctag="019" data-tag="005">Venezuela</option>
+      <option value="TM" data-ctag="142" data-tag="143">Turkmenistan</option>
+      <option value="TJ" data-ctag="142" data-tag="143">Tajikistan</option>
+      <option value="KG" data-ctag="142" data-tag="143">Kyrgyzstan</option>
+      <option value="KZ" data-ctag="142" data-tag="143">Kazakhstan</option>
+      <option value="UZ" data-ctag="142" data-tag="143">Uzbekistan</option>
+      <option value="CN" data-ctag="142" data-tag="030">China</option>
+      <option value="HK" data-ctag="142" data-tag="030">Hong Kong</option>
+      <option value="JP" data-ctag="142" data-tag="030">Japan</option>
+      <option value="KP" data-ctag="142" data-tag="030">Korea, Democratic People'S Republic Of</option>
+      <option value="KR" data-ctag="142" data-tag="030">Korea, Republic Of</option>
+      <option value="MN" data-ctag="142" data-tag="030">Mongolia</option>
+      <option value="MO" data-ctag="142" data-tag="030">Macau</option>
+      <option value="TW" data-ctag="142" data-tag="030">Taiwan, Province Of China</option>
+      <option value="AF" data-ctag="142" data-tag="034">Afghanistan</option>
+      <option value="BD" data-ctag="142" data-tag="034">Bangladesh</option>
+      <option value="BT" data-ctag="142" data-tag="034">Bhutan</option>
+      <option value="IN" data-ctag="142" data-tag="034">India</option>
+      <option value="IR" data-ctag="142" data-tag="034">Iran, Islamic Republic Of</option>
+      <option value="LK" data-ctag="142" data-tag="034">Sri Lanka</option>
+      <option value="MV" data-ctag="142" data-tag="034">Maldives</option>
+      <option value="NP" data-ctag="142" data-tag="034">Nepal</option>
+      <option value="PK" data-ctag="142" data-tag="034">Pakistan</option>
+      <option value="BN" data-ctag="142" data-tag="035">Brunei Darussalam</option>
+      <option value="ID" data-ctag="142" data-tag="035">Indonesia</option>
+      <option value="KH" data-ctag="142" data-tag="035">Cambodia</option>
+      <option value="LA" data-ctag="142" data-tag="035">Lao People's Democratic Republic</option>
+      <option value="MM" data-ctag="142" data-tag="035">Myanmar</option>
+      <option value="MY" data-ctag="142" data-tag="035">Malaysia</option>
+      <option value="PH" data-ctag="142" data-tag="035">Philippines</option>
+      <option value="SG" data-ctag="142" data-tag="035">Singapore</option>
+      <option value="TH" data-ctag="142" data-tag="035">Thailand</option>
+      <option value="VN" data-ctag="142" data-tag="035">Vietnam</option>
+      <option value="AE" data-ctag="142" data-tag="145">United Arab Emirates</option>
+      <option value="AM" data-ctag="142" data-tag="145">Armenia</option>
+      <option value="AZ" data-ctag="142" data-tag="145">Azerbaijan</option>
+      <option value="BH" data-ctag="142" data-tag="145">Bahrain</option>
+      <option value="CY" data-ctag="142" data-tag="145">Cyprus</option>
+      <option value="GE" data-ctag="142" data-tag="145">Georgia</option>
+      <option value="IL" data-ctag="142" data-tag="145">Israel</option>
+      <option value="IQ" data-ctag="142" data-tag="145">Iraq</option>
+      <option value="JO" data-ctag="142" data-tag="145">Jordan</option>
+      <option value="KW" data-ctag="142" data-tag="145">Kuwait</option>
+      <option value="LB" data-ctag="142" data-tag="145">Lebanon</option>
+      <option value="OM" data-ctag="142" data-tag="145">Oman</option>
+      <option value="QA" data-ctag="142" data-tag="145">Qatar</option>
+      <option value="SA" data-ctag="142" data-tag="145">Saudi Arabia</option>
+      <option value="SY" data-ctag="142" data-tag="145">Syrian Arab Republic</option>
+      <option value="TR" data-ctag="142" data-tag="145">Turkey</option>
+      <option value="YE" data-ctag="142" data-tag="145">Yemen</option>
+      <option value="AU" data-ctag="009" data-tag="053">Australia</option>
+      <option value="NF" data-ctag="009" data-tag="053">Norfolk Island</option>
+      <option value="NZ" data-ctag="009" data-tag="053">New Zealand</option>
+      <option value="FJ" data-ctag="009" data-tag="054">Fiji</option>
+      <option value="NC" data-ctag="009" data-tag="054">New Caledonia</option>
+      <option value="PG" data-ctag="009" data-tag="054">Papua New Guinea</option>
+      <option value="SB" data-ctag="009" data-tag="054">Solomon Islands</option>
+      <option value="VU" data-ctag="009" data-tag="054">Vanuatu</option>
+      <option value="FM" data-ctag="009" data-tag="057">Micronesia, Federated States Of</option>
+      <option value="GU" data-ctag="009" data-tag="057">Guam</option>
+      <option value="KI" data-ctag="009" data-tag="057">Kiribati</option>
+      <option value="MH" data-ctag="009" data-tag="057">Marshall Islands</option>
+      <option value="MP" data-ctag="009" data-tag="057">Northern Mariana Islands</option>
+      <option value="NR" data-ctag="009" data-tag="057">Nauru</option>
+      <option value="PW" data-ctag="009" data-tag="057">Palau</option>
+      <option value="AS" data-ctag="009" data-tag="061">American Samoa</option>
+      <option value="CK" data-ctag="009" data-tag="061">Cook Islands</option>
+      <option value="NU" data-ctag="009" data-tag="061">Niue</option>
+      <option value="PF" data-ctag="009" data-tag="061">French Polynesia</option>
+      <option value="PN" data-ctag="009" data-tag="061">Pitcairn</option>
+      <option value="TK" data-ctag="009" data-tag="061">Tokelau</option>
+      <option value="TO" data-ctag="009" data-tag="061">Tonga</option>
+      <option value="TV" data-ctag="009" data-tag="061">Tuvalu</option>
+      <option value="WF" data-ctag="009" data-tag="061">Wallis And Futuna Islands</option>
+      <option value="WS" data-ctag="009" data-tag="061">Samoa</option>
+    </select>
+  </t>
 </templates>

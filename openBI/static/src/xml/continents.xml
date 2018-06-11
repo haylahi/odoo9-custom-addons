@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
-    <t t-name="openBI.continents">
-        <select class="select-sortable select-continents pull-right" name="region">
-            <option value="world">All</option>
-            <option value="002">Africa</option>
-            <option value="150">Europe</option>
-            <option value="019">Americas</option>
-            <option value="142">Asia</option>
-            <option value="009">Oceania</option> 
-        </select>
-    </t>
+  <t t-name="openBI.continents">
+    <select class="select-sortable select-continents pull-right" name="region">
+      <option value="world">All</option>
+      <option value="002">Africa</option>
+      <option value="150">Europe</option>
+      <option value="019">Americas</option>
+      <option value="142">Asia</option>
+      <option value="009">Oceania</option> 
+    </select>
+  </t>
 </templates>
