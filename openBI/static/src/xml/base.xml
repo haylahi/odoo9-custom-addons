@@ -80,6 +80,7 @@
           </div>
         </div>
         <div class="col-md-7 col-sm-12">
+          <div id="error_div"></div>
           <div id="map_div"></div>
           <div id="map-table" class="panel panel-default">
             <div class="panel-heading" aria-expanded="false" data-toggle="collapse" data-target="#map-data-display">

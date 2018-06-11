@@ -21,10 +21,7 @@ odoo.define('oechart.Graphwidget', function (require) {
         let self = this;
 
         self.initMap();
-        google.charts.setOnLoadCallback(function () {
-          self.drawRegionsMap(self.prepareDataMap());
-          self.addMapEvents();
-        });
+        google.charts.setOnLoadCallback(() => { self.drawRegionsMap(self.prepareDataMap()) });
     },
     /**
      * Render the map view and load necessary packages.
@@ -38,6 +35,7 @@ odoo.define('oechart.Graphwidget', function (require) {
           'packages':['geochart','table'],
           'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
         });
+        $('#error-div').hide();
     },
     /**
      * @returns features transformed data
@@ -125,6 +123,8 @@ odoo.define('oechart.Graphwidget', function (require) {
 
       chart.draw(data, mapOptions);
       table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+
+      this.addMapEvents(chart, table);
     },
     /**
      * @param optionStruct object containing user inputs
@@ -163,12 +163,27 @@ odoo.define('oechart.Graphwidget', function (require) {
         }
       }
     },
-    addMapEvents: () => {
+    addMapEvents: (chart, table) => {
       google.visualization.events.addListener(table, 'select', () => {
         chart.setSelection(table.getSelection())
       });
       google.visualization.events.addListener(chart, 'select', () => {
         table.setSelection(chart.getSelection())
+      });
+      google.visualization.events.addListener(chart, 'error', function (err) {
+        //google.visualization.errors.removeError(err.id);
+        jQuery('<a/>', {
+          href: '#',
+          class: 'close',
+          text: 'x',
+          'data-dismiss': 'alert',
+        }).appendTo(
+          jQuery('<div/>', {
+            id: 'error_msg',
+            class: 'alert alert-danger alert-dismissible fade in',
+            text: err.message
+          }).appendTo('#error_div')
+        );
       });
     }
   })
