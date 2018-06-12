@@ -27,9 +27,10 @@ odoo.define('oemap.Graphwidget', function (require) {
      * Render the map view and load necessary packages.
      */
     initMap: function () {
-        mapOptions = {tooltip: { trigger: 'selection' }};
+
         this.$el.empty();
         this.$el.append(QWeb.render('GeoChartView'));
+        this.sort_map_options();
 
         google.charts.load('current', {
           'packages':['geochart','table'],
@@ -74,7 +75,10 @@ odoo.define('oemap.Graphwidget', function (require) {
         features = [[this.groupbys[0], data[0].key]]
       }
       
+      // more than one groupby
       if (this.groupbys.length > 1) {
+
+        // We want to map 2 columns of data if the first groupby is not a number, else 3 
         if(isNaN(this.data[0].labels[0])) {
           data = [
             {
@@ -94,13 +98,10 @@ odoo.define('oemap.Graphwidget', function (require) {
         }
       }
       
-      // Organize the data for the map
-      console.log(data);
+      // If there is an array at first position, then we have to map 3 columns of data per row (else 2) 
       data[0].values.forEach(e => {
         e.x.constructor === Array ? features.push([e.x[0],e.x[1],e.y]): features.push([e.x,e.y]);
       });
-      console.log(features)
-
 
       return features;
     },
@@ -160,6 +161,12 @@ odoo.define('oemap.Graphwidget', function (require) {
         }
       }
     },
+    /**
+     * @param map object 
+     * @param table object
+     * 
+     * Add Listeners on select event to trigger the tooltip and on error event to delete base error message to display bootstrap's one
+     */
     addMapEvents: (map, table) => {
       google.visualization.events.addListener(table, 'select', () => {
         map.setSelection(table.getSelection())
@@ -197,6 +204,26 @@ odoo.define('oemap.Graphwidget', function (require) {
           }).appendTo('#error_div')
         );
       });
-    }
+    },
+    /**
+     * Sort the continents, subcontinents and countries on page load.
+     */
+    sort_map_options: () => {
+      let sorted;
+      $(".mapView .select-sortable")
+        .map(function () { 
+          sorted = $(this)
+                      .children()
+                      .sort(function(a,b) {
+                        if (a.text > b.text) return 1;
+                        else if (a.text < b.text) return -1;
+                        else return 0
+                      });
+          $(this)
+            .empty()
+            .append(sorted);
+        });
+      $(".mapView .select-continents").val("world")
+    },
   })
 });

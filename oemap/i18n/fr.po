@@ -1421,7 +1421,7 @@ msgstr "Qatar"
 #: code:addons/oemap/static/src/xml/geochart.xml:17
 #, python-format
 msgid "Regions"
-msgstr "Les régions"
+msgstr "Régions"
 
 #. module: oemap
 #. openerp-web

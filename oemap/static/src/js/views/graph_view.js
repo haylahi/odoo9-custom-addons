@@ -16,7 +16,6 @@ odoo.define('oemap.GraphView',function (require) {
       'change .mapView .panel select': function () {
         this.select_set_state();
         this.build_options();
-        //this.sort_options();
       },
       /**
        * Get the displayed map and creates a new page to print.
@@ -29,22 +28,6 @@ odoo.define('oemap.GraphView',function (require) {
         mapWindow.print();
         mapWindow.close();
       },
-    },
-    sort_options: () => {
-      let sorted;
-      $(".mapView .select-sortable")
-        .map(function () { 
-          sorted = $(this)
-                      .children()
-                      .sort(function(a,b) {
-                        if (a.text > b.text) return 1;
-                        else if (a.text < b.text) return -1;
-                        else return 0
-                      });
-          $(this)
-            .empty()
-            .append(sorted);
-        });
     },
     /**
      * Creates an option data structure to update the map based on user inputs.
