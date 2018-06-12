@@ -1,4 +1,4 @@
-odoo.define('oechart.Graphwidget', function (require) {
+odoo.define('oemap.Graphwidget', function (require) {
   "use strict";
   
   var core = require('web.core');
@@ -113,13 +113,15 @@ odoo.define('oechart.Graphwidget', function (require) {
     drawRegionsMap: function (features) {
       let data = google.visualization.arrayToDataTable(features);
 
-      let chart = new google.visualization.GeoChart(document.getElementById('map_div'));
+      let map = new google.visualization.GeoChart(document.getElementById('map_div'));
       let table = new google.visualization.Table(document.getElementById('table_div'));
 
-      chart.draw(data, mapOptions);
+      this.addMapEvents(map, table);
+
+      map.draw(data, mapOptions);
       table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
 
-      this.addMapEvents(chart, table);
+      
     },
     /**
      * @param optionStruct object containing user inputs
@@ -158,14 +160,30 @@ odoo.define('oechart.Graphwidget', function (require) {
         }
       }
     },
-    addMapEvents: (chart, table) => {
+    addMapEvents: (map, table) => {
       google.visualization.events.addListener(table, 'select', () => {
-        chart.setSelection(table.getSelection())
+        map.setSelection(table.getSelection())
       });
-      google.visualization.events.addListener(chart, 'select', () => {
-        table.setSelection(chart.getSelection())
+      google.visualization.events.addListener(table, 'error', function (err) {
+        google.visualization.errors.removeAll(document.getElementById("table_div"))
+        jQuery('<a/>', {
+          href: '#',
+          class: 'close',
+          text: 'x',
+          'data-dismiss': 'alert',
+        }).appendTo(
+          jQuery('<div/>', {
+            id: 'error_msg',
+            class: 'alert alert-danger alert-dismissible fade in',
+            text: err.message
+          }).appendTo('#error_div')
+        );
       });
-      google.visualization.events.addListener(chart, 'error', function (err) {
+      google.visualization.events.addListener(map, 'select', () => {
+        table.setSelection(map.getSelection())
+      });
+      google.visualization.events.addListener(map, 'error', function (err) {
+        google.visualization.errors.removeAll(document.getElementById("map_div"))
         jQuery('<a/>', {
           href: '#',
           class: 'close',

@@ -1,5 +1,5 @@
 {
-    'name' : 'OpenERP BI',
+    'name' : 'OpenERP Map BI',
     'version': '1.0',
     'summary': 'Enhance Odoo BI features',
     'category': 'Tools',

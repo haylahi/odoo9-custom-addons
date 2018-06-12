@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_backend" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/oemap/static/src/css/styles.css" />
+                <script type="text/javascript" src="/oemap/static/lib/loader.js"></script>
+                <script type="text/javascript" src="/oemap/static/src/js/views/graph_view.js"></script>
+                <script type="text/javascript" src="/oemap/static/src/js/views/graph_widget.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>

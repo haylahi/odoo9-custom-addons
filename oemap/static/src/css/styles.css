@@ -27,7 +27,4 @@
 #map-table {
     margin-top: 15px;
 }
-
-.mapView [id^='google-visualization-errors'] {
-  display: none;
-}
+  
