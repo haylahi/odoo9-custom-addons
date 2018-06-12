@@ -1,4 +1,4 @@
-odoo.define('oemap.Graphwidget', function (require) {
+odoo.define('web_geochart.Graphwidget', function (require) {
   "use strict";
   
   var core = require('web.core');

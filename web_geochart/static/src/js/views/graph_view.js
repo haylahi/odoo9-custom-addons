@@ -1,4 +1,4 @@
-odoo.define('oemap.GraphView',function (require) {
+odoo.define('web_geochart.GraphView',function (require) {
   "use strict";
 
   var core = require('web.core');
@@ -46,7 +46,7 @@ odoo.define('oemap.GraphView',function (require) {
      * Manages 'Display settings' select input states at each value change
      */
     select_set_state: () => {
-      // Show subcontinents if 'All' isn't selected
+      // Show subcontinents if 'World' isn't selected
       if($('.select-continents').val() !== "world") {
 
         // Set selected subcontinent to default if it is from an other continent
@@ -85,7 +85,7 @@ odoo.define('oemap.GraphView',function (require) {
             .hide();
         }
       } else {
-          // Hide subcontinents and country select if 'All' is chosen
+          // Hide subcontinents and country select if 'World' is chosen
           $('.select-subcontinents').val(" ");
           $('.select-subcontinents').parent().addClass("hidden");
           $('.select-countries').val(" ");

@@ -1,0 +1,1949 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * web_geochart
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-12 10:43+0000\n"
+"PO-Revision-Date: 2018-06-12 10:43+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:169
+#, python-format
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/continents.xml:6
+#, python-format
+msgid "Africa"
+msgstr "Africa"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:94
+#, python-format
+msgid "Albania"
+msgstr "Albania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:6
+#, python-format
+msgid "Algeria"
+msgstr "Algeria"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:220
+#, python-format
+msgid "American Samoa"
+msgstr "Samoa americane"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/continents.xml:8
+#, python-format
+msgid "Americas"
+msgstr "Americas"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:93
+#, python-format
+msgid "Andorra"
+msgstr "Andorra"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:30
+#, python-format
+msgid "Angola"
+msgstr "angola"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:113
+#, python-format
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:112
+#, python-format
+msgid "Antigua And Barbuda"
+msgstr "Antigua e Barbuda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:142
+#, python-format
+msgid "Argentina"
+msgstr "Argentina"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:189
+#, python-format
+msgid "Armenia"
+msgstr "Armenia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:114
+#, python-format
+msgid "Aruba"
+msgstr "Aruba"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/continents.xml:9
+#, python-format
+msgid "Asia"
+msgstr "Asia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:205
+#, python-format
+msgid "Australia"
+msgstr "Australia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:23
+#, python-format
+msgid "Australia and New Zealand"
+msgstr "Australia e Nuova Zelanda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:74
+#, python-format
+msgid "Austria"
+msgstr "Austria"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:190
+#, python-format
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:49
+#, python-format
+msgid "Background-color"
+msgstr "Colore di sfondo"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:191
+#, python-format
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:170
+#, python-format
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/base.xml:5
+#, python-format
+msgid "Bar Chart"
+msgstr "Bar Chart"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:115
+#, python-format
+msgid "Barbados"
+msgstr "Barbados"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:84
+#, python-format
+msgid "Belarus"
+msgstr "Bielorussia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:75
+#, python-format
+msgid "Belgium"
+msgstr "Belgio"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:134
+#, python-format
+msgid "Belize"
+msgstr "Belize"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:14
+#, python-format
+msgid "Benin"
+msgstr "Benin"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:107
+#, python-format
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:171
+#, python-format
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:143
+#, python-format
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:95
+#, python-format
+msgid "Bosnia And Herzegovina"
+msgstr "Bosnia Erzegovina"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:57
+#, python-format
+msgid "Botswana"
+msgstr "Botswana"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:144
+#, python-format
+msgid "Brazil"
+msgstr "Brasile"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:178
+#, python-format
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:83
+#, python-format
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:13
+#, python-format
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:38
+#, python-format
+msgid "Burundi"
+msgstr "Burundi"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:180
+#, python-format
+msgid "Cambodia"
+msgstr "Cambogia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:33
+#, python-format
+msgid "Cameroon"
+msgstr "Camerun"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:108
+#, python-format
+msgid "Canada"
+msgstr "Canada"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:16
+#, python-format
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:15
+#, python-format
+msgid "Caribbean"
+msgstr "caraibico"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:124
+#, python-format
+msgid "Cayman Islands"
+msgstr "Isole Cayman"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:31
+#, python-format
+msgid "Central African Republic"
+msgstr "Repubblica Centrafricana"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:16
+#, python-format
+msgid "Central America"
+msgstr "America Centrale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:18
+#, python-format
+msgid "Central Asia"
+msgstr "Asia centrale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:37
+#, python-format
+msgid "Chad"
+msgstr "Chad"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:145
+#, python-format
+msgid "Chile"
+msgstr "chile"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:161
+#, python-format
+msgid "China"
+msgstr "Cina"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:146
+#, python-format
+msgid "Colombia"
+msgstr "Colombia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:42
+#, python-format
+msgid "Color Settings"
+msgstr "Impostazioni colore"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:43
+#, python-format
+msgid "Comoros"
+msgstr "Comoros"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:32
+#, python-format
+msgid "Congo"
+msgstr "Congo"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:29
+#, python-format
+msgid "Continent"
+msgstr "Continente"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:221
+#, python-format
+msgid "Cook Islands"
+msgstr "Isole Cook"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:135
+#, python-format
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:15
+#, python-format
+msgid "Cote D'Ivoire"
+msgstr "Costa d'Avorio"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/base.xml:19
+#, python-format
+msgid "Count"
+msgstr "Count"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:24
+#, python-format
+msgid "Countries"
+msgstr "paesi"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:35
+#, python-format
+msgid "Country"
+msgstr "Nazione"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:99
+#, python-format
+msgid "Croatia"
+msgstr "Croazia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:116
+#, python-format
+msgid "Cuba"
+msgstr "Cuba"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:192
+#, python-format
+msgid "Cyprus"
+msgstr "Cipro"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:85
+#, python-format
+msgid "Czech Republic"
+msgstr "Repubblica Ceca"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:67
+#, python-format
+msgid "Data Display"
+msgstr "Visualizzazione dati"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:50
+#, python-format
+msgid "Dataless region color"
+msgstr "Colore regione dataless"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:62
+#, python-format
+msgid "Denmark"
+msgstr "Danimarca"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:15
+#, python-format
+msgid "Display Mode"
+msgstr "Modalità display"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:8
+#, python-format
+msgid "Display Settings"
+msgstr "Impostazioni di visualizzazione"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:39
+#, python-format
+msgid "Djibouti"
+msgstr "Gibuti"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:117
+#, python-format
+msgid "Dominica"
+msgstr "Dominica"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:118
+#, python-format
+msgid "Dominican Republic"
+msgstr "Repubblica Dominicana"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:8
+#, python-format
+msgid "Eastern Africa"
+msgstr "Africa orientale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:19
+#, python-format
+msgid "Eastern Asia"
+msgstr "Asia orientale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:12
+#, python-format
+msgid "Eastern Europe"
+msgstr "Europa orientale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:147
+#, python-format
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:7
+#, python-format
+msgid "Egypt"
+msgstr "Egitto"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:141
+#, python-format
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:52
+#, python-format
+msgid "End of the color axis"
+msgstr "Fine dell'asse del colore"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:35
+#, python-format
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:40
+#, python-format
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:63
+#, python-format
+msgid "Estonia"
+msgstr "Estonia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:41
+#, python-format
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/continents.xml:7
+#, python-format
+msgid "Europe"
+msgstr "Europa"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:148
+#, python-format
+msgid "Falkland Islands (Malvinas)"
+msgstr "Isole Falkland (Malvinas)"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:65
+#, python-format
+msgid "Faroe Islands"
+msgstr "Isole Faroe"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:208
+#, python-format
+msgid "Fiji"
+msgstr "Fiji"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:64
+#, python-format
+msgid "Finland"
+msgstr "Finlandia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:78
+#, python-format
+msgid "France"
+msgstr "Francia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:149
+#, python-format
+msgid "French Guiana"
+msgstr "Guiana francese"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:223
+#, python-format
+msgid "French Polynesia"
+msgstr "Polinesia francese"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:34
+#, python-format
+msgid "Gabon"
+msgstr "Gabon"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:18
+#, python-format
+msgid "Gambia"
+msgstr "Gambia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/base.xml:8
+#, python-format
+msgid "Geo Chart"
+msgstr "Geo Chart"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:193
+#, python-format
+msgid "Georgia"
+msgstr "Georgia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:77
+#, python-format
+msgid "Germany"
+msgstr "Germania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:17
+#, python-format
+msgid "Ghana"
+msgstr "Ghana"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:97
+#, python-format
+msgid "Gibraltar"
+msgstr "Gibilterra"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:98
+#, python-format
+msgid "Greece"
+msgstr "Grecia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:109
+#, python-format
+msgid "Greenland"
+msgstr "Groenlandia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:119
+#, python-format
+msgid "Grenada"
+msgstr "Grenada"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:120
+#, python-format
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:214
+#, python-format
+msgid "Guam"
+msgstr "Guam"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:136
+#, python-format
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:19
+#, python-format
+msgid "Guinea"
+msgstr "Guinea"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:20
+#, python-format
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:150
+#, python-format
+msgid "Guyana"
+msgstr "Guyana"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:121
+#, python-format
+msgid "Haiti"
+msgstr "Haiti"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:137
+#, python-format
+msgid "Honduras"
+msgstr "Honduras"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:162
+#, python-format
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:86
+#, python-format
+msgid "Hungary"
+msgstr "Ungheria"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:68
+#, python-format
+msgid "Iceland"
+msgstr "Islanda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:172
+#, python-format
+msgid "India"
+msgstr "India"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:179
+#, python-format
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:173
+#, python-format
+msgid "Iran"
+msgstr "Ho corso"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:195
+#, python-format
+msgid "Iraq"
+msgstr "Iraq"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:67
+#, python-format
+msgid "Ireland"
+msgstr "Irlanda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:194
+#, python-format
+msgid "Israel"
+msgstr "Israele"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:100
+#, python-format
+msgid "Italy"
+msgstr "Italy"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:122
+#, python-format
+msgid "Jamaica"
+msgstr "Giamaica"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:163
+#, python-format
+msgid "Japan"
+msgstr "Giappone"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:196
+#, python-format
+msgid "Jordan"
+msgstr "Giordania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:159
+#, python-format
+msgid "Kazakhstan"
+msgstr "Kazakistan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:42
+#, python-format
+msgid "Kenya"
+msgstr "Kenia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:215
+#, python-format
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:197
+#, python-format
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:158
+#, python-format
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:181
+#, python-format
+msgid "Lao People's Democratic Republic"
+msgstr "Repubblica democratica popolare del Laos"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:70
+#, python-format
+msgid "Latvia"
+msgstr "Lettonia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:198
+#, python-format
+msgid "Lebanon"
+msgstr "Libano"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:58
+#, python-format
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:21
+#, python-format
+msgid "Liberia"
+msgstr "Liberia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:9
+#, python-format
+msgid "Libyan Arab Jamahiriya"
+msgstr "Jamahiriya arabo libico"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:79
+#, python-format
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/base.xml:6
+#, python-format
+msgid "Line Chart"
+msgstr "Line Chart"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:69
+#, python-format
+msgid "Lithuania"
+msgstr "Lituania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:80
+#, python-format
+msgid "Luxembourg"
+msgstr "Lussemburgo"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:167
+#, python-format
+msgid "Macau"
+msgstr "Macau"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:101
+#, python-format
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:44
+#, python-format
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:46
+#, python-format
+msgid "Malawi"
+msgstr "Malawi"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:183
+#, python-format
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:175
+#, python-format
+msgid "Maldives"
+msgstr "Maldive"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:22
+#, python-format
+msgid "Mali"
+msgstr "mali"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:102
+#, python-format
+msgid "Malta"
+msgstr "Malta"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:53
+#, python-format
+msgid "Marker opacity"
+msgstr "Opacità del marker"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:18
+#, python-format
+msgid "Markers"
+msgstr "marcatori"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:216
+#, python-format
+msgid "Marshall Islands"
+msgstr "Isole Marshall"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:126
+#, python-format
+msgid "Martinique"
+msgstr "Martinique"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:23
+#, python-format
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:45
+#, python-format
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:54
+#, python-format
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/base.xml:11
+#, python-format
+msgid "Measure"
+msgstr "Measure"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:24
+#, python-format
+msgid "Melanesia"
+msgstr "melanesia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:26
+#, python-format
+msgid "Metro"
+msgstr "Metro"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:138
+#, python-format
+msgid "Mexico"
+msgstr "Messico"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:213
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:25
+#, python-format
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:7
+#, python-format
+msgid "Middle Africa"
+msgstr "Africa centrale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:87
+#, python-format
+msgid "Moldova"
+msgstr "Moldavia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:81
+#, python-format
+msgid "Monaco"
+msgstr "Monaco"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:166
+#, python-format
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:127
+#, python-format
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:10
+#, python-format
+msgid "Morocco"
+msgstr "Marocco"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:47
+#, python-format
+msgid "Mozambique"
+msgstr "Mozambico"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:182
+#, python-format
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:59
+#, python-format
+msgid "Namibia"
+msgstr "Namibia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:218
+#, python-format
+msgid "Nauru"
+msgstr "Nauru"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:176
+#, python-format
+msgid "Nepal"
+msgstr "Nepal"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:82
+#, python-format
+msgid "Netherlands"
+msgstr "Olanda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:209
+#, python-format
+msgid "New Caledonia"
+msgstr "Nuova Caledonia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:207
+#, python-format
+msgid "New Zealand"
+msgstr "Nuova Zelanda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:139
+#, python-format
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:24
+#, python-format
+msgid "Niger"
+msgstr "Niger"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:25
+#, python-format
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:222
+#, python-format
+msgid "Niue"
+msgstr "Niue"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:206
+#, python-format
+msgid "Norfolk Island"
+msgstr "Isola Norfolk"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:164
+#, python-format
+msgid "North Korea"
+msgstr "Corea del nord"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:6
+#, python-format
+msgid "Northern Africa"
+msgstr "Africa settentrionale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:14
+#, python-format
+msgid "Northern America"
+msgstr "America del Nord"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:10
+#, python-format
+msgid "Northern Europe"
+msgstr "Europa settentrionale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:217
+#, python-format
+msgid "Northern Mariana Islands"
+msgstr "Isole Marianne settentrionali"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:71
+#, python-format
+msgid "Norway"
+msgstr "Norvegia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/continents.xml:10
+#, python-format
+msgid "Oceania"
+msgstr "Oceania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:199
+#, python-format
+msgid "Oman"
+msgstr "Oman"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:177
+#, python-format
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:219
+#, python-format
+msgid "Palau"
+msgstr "Palau"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:140
+#, python-format
+msgid "Panama"
+msgstr "Panama"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:210
+#, python-format
+msgid "Papua New Guinea"
+msgstr "Papua Nuova Guinea"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:152
+#, python-format
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:151
+#, python-format
+msgid "Peru"
+msgstr "Perù"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:184
+#, python-format
+msgid "Philippines"
+msgstr "Filippine"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/base.xml:7
+#, python-format
+msgid "Pie Chart"
+msgstr "Pie Chart"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:224
+#, python-format
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:88
+#, python-format
+msgid "Poland"
+msgstr "Polonia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:26
+#, python-format
+msgid "Polynesia"
+msgstr "Polinesia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:103
+#, python-format
+msgid "Portugal"
+msgstr "Portogallo"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:59
+#, python-format
+msgid "Print"
+msgstr "Stampare"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:25
+#, python-format
+msgid "Provinces"
+msgstr "province"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:128
+#, python-format
+msgid "Puerto Rico"
+msgstr "Porto Rico"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:200
+#, python-format
+msgid "Qatar"
+msgstr "Qatar"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:17
+#, python-format
+msgid "Regions"
+msgstr "Regioni"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:22
+#, python-format
+msgid "Resolution"
+msgstr "Risoluzione"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:48
+#, python-format
+msgid "Reunion"
+msgstr "Riunione"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:89
+#, python-format
+msgid "Romania"
+msgstr "Romania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:90
+#, python-format
+msgid "Russian Federation"
+msgstr "Federazione Russa"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:49
+#, python-format
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:26
+#, python-format
+msgid "Saint Helena"
+msgstr "Sant'Elena"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:123
+#, python-format
+msgid "Saint Kitts And Nevis"
+msgstr "Saint Kitts e Nevis"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:125
+#, python-format
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:110
+#, python-format
+msgid "Saint Pierre And Miquelon"
+msgstr "Saint Pierre e Miquelon"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:131
+#, python-format
+msgid "Saint Vincent And The Grenadines"
+msgstr "Saint Vincent e Grenadine"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:229
+#, python-format
+msgid "Samoa"
+msgstr "Samoa"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:105
+#, python-format
+msgid "San Marino"
+msgstr "San Marino"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:36
+#, python-format
+msgid "Sao Tome And Principe"
+msgstr "Sao Tome e Principe"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:201
+#, python-format
+msgid "Saudi Arabia"
+msgstr "Arabia Saudita"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:28
+#, python-format
+msgid "Senegal"
+msgstr "Senegal"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:50
+#, python-format
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:27
+#, python-format
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:185
+#, python-format
+msgid "Singapore"
+msgstr "Singapore"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:91
+#, python-format
+msgid "Slovakia (Slovak Republic)"
+msgstr "Slovacchia (Repubblica slovacca)"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:104
+#, python-format
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:211
+#, python-format
+msgid "Solomon Islands"
+msgstr "Isole Salomone"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:51
+#, python-format
+msgid "Somalia"
+msgstr "Somalia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:61
+#, python-format
+msgid "South Africa"
+msgstr "Sud Africa"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:17
+#, python-format
+msgid "South America"
+msgstr "Sud America"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:165
+#, python-format
+msgid "South Korea"
+msgstr "Corea del Sud"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:21
+#, python-format
+msgid "South-Eastern Asia"
+msgstr "Asia sud-orientale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:9
+#, python-format
+msgid "Southern Africa"
+msgstr "Africa meridionale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:20
+#, python-format
+msgid "Southern Asia"
+msgstr "Asia meridionale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:13
+#, python-format
+msgid "Southern Europe"
+msgstr "Europa del Sud"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:96
+#, python-format
+msgid "Spain"
+msgstr "Spagna"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:174
+#, python-format
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:51
+#, python-format
+msgid "Start of the color axis"
+msgstr "Inizio dell'asse del colore"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:32
+#, python-format
+msgid "Sub Continent"
+msgstr "Sott Continente"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:11
+#, python-format
+msgid "Sudan"
+msgstr "Sudan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:153
+#, python-format
+msgid "Suriname"
+msgstr "Suriname"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:73
+#, python-format
+msgid "Svalbard And Jan Mayen Islands"
+msgstr "Isole Svalbard e Jan Mayen"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:60
+#, python-format
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:72
+#, python-format
+msgid "Sweden"
+msgstr "Svezia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:76
+#, python-format
+msgid "Switzerland"
+msgstr "Svizzera"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:202
+#, python-format
+msgid "Syrian Arab Republic"
+msgstr "Repubblica Araba Siriana"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:168
+#, python-format
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:157
+#, python-format
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:52
+#, python-format
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:19
+#, python-format
+msgid "Text"
+msgstr "Testo"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:186
+#, python-format
+msgid "Thailand"
+msgstr "Tailandia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:29
+#, python-format
+msgid "Togo"
+msgstr "Andare"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:225
+#, python-format
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:226
+#, python-format
+msgid "Tonga"
+msgstr "Tonga"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:130
+#, python-format
+msgid "Trinidad And Tobago"
+msgstr "Trinidad e Tobago"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:12
+#, python-format
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:203
+#, python-format
+msgid "Turkey"
+msgstr "tacchino"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:156
+#, python-format
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:129
+#, python-format
+msgid "Turks And Caicos Islands"
+msgstr "Isole Turks e Caicos"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:227
+#, python-format
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:53
+#, python-format
+msgid "Uganda"
+msgstr "Uganda"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:92
+#, python-format
+msgid "Ukraine"
+msgstr "Ucraina"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:188
+#, python-format
+msgid "United Arab Emirates"
+msgstr "Emirati Arabi Uniti"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:66
+#, python-format
+msgid "United Kingdom"
+msgstr "Regno Unito"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:111
+#, python-format
+msgid "United States"
+msgstr "stati Uniti"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:154
+#, python-format
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:160
+#, python-format
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:212
+#, python-format
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:106
+#, python-format
+msgid "Vatican City State (Holy See)"
+msgstr "Stato della Città del Vaticano (Santa Sede)"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:155
+#, python-format
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:187
+#, python-format
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:132
+#, python-format
+msgid "Virgin Islands (British)"
+msgstr "Isole Vergini (britanniche)"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:133
+#, python-format
+msgid "Virgin Islands (U.S.)"
+msgstr "Isole Vergini (U.S.)"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:228
+#, python-format
+msgid "Wallis And Futuna Islands"
+msgstr "Isole Wallis e Futuna"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:22
+#, python-format
+msgid "Western Asia"
+msgstr "Asia occidentale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/subcontinents.xml:11
+#, python-format
+msgid "Western Europe"
+msgstr "Europa occidentale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:8
+#, python-format
+msgid "Western Sahara"
+msgstr "Sahara occidentale"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/continents.xml:5
+#, python-format
+msgid "World"
+msgstr "Mondo"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:204
+#, python-format
+msgid "Yemen"
+msgstr "Yemen"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:55
+#, python-format
+msgid "Zambia"
+msgstr "Zambia"
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/countries.xml:56
+#, python-format
+msgid "Zimbabwe"
+msgstr "Zimbabwe"

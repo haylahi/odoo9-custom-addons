@@ -1,14 +1,14 @@
 {
-    'name' : 'OpenERP Map BI',
+    'name' : 'Odoo GeoChart',
     'version': '1.0',
-    'summary': 'Enhance Odoo BI features',
+    'summary': 'Enhance Odoo graph features',
     'category': 'Tools',
     'description':
         """
-OpenERP BI
+Odoo GeoChart
 ====================
 
-This is an OpenERP 9 addons to enhance native OpenERP BI features by adding new graph funtionnalities.
+This is an Odoo 9 addons to enhance native Odoo graph features by adding Google GeoChart funtionnalities.
         """,
     'data': [
         "views/webclient_templates.xml",
