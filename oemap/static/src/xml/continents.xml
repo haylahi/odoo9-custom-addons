@@ -2,7 +2,7 @@
 <templates xml:space="preserve">
   <t t-name="openBI.continents">
     <select class="select-sortable select-continents pull-right" name="region">
-      <option value="world">All</option>
+      <option value="world">World</option>
       <option value="002">Africa</option>
       <option value="150">Europe</option>
       <option value="019">Americas</option>

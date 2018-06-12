@@ -49,7 +49,7 @@
       <option value="RW" data-ctag="002" data-tag="014">Rwanda</option>
       <option value="SC" data-ctag="002" data-tag="014">Seychelles</option>
       <option value="SO" data-ctag="002" data-tag="014">Somalia</option>
-      <option value="TZ" data-ctag="002" data-tag="014">Tanzania, United Republic Of</option>
+      <option value="TZ" data-ctag="002" data-tag="014">Tanzania</option>
       <option value="UG" data-ctag="002" data-tag="014">Uganda</option>
       <option value="YT" data-ctag="002" data-tag="014">Mayotte</option>
       <option value="ZM" data-ctag="002" data-tag="014">Zambia</option>
@@ -84,7 +84,7 @@
       <option value="BY" data-ctag="150" data-tag="151">Belarus</option>
       <option value="CZ" data-ctag="150" data-tag="151">Czech Republic</option>
       <option value="HU" data-ctag="150" data-tag="151">Hungary</option>
-      <option value="MD" data-ctag="150" data-tag="151">Moldova, Republic Of</option>
+      <option value="MD" data-ctag="150" data-tag="151">Moldova</option>
       <option value="PL" data-ctag="150" data-tag="151">Poland</option>
       <option value="RO" data-ctag="150" data-tag="151">Romania</option>
       <option value="RU" data-ctag="150" data-tag="151">Russian Federation</option>
@@ -98,7 +98,7 @@
       <option value="GR" data-ctag="150" data-tag="039">Greece</option>
       <option value="HR" data-ctag="150" data-tag="039">Croatia</option>
       <option value="IT" data-ctag="150" data-tag="039">Italy</option>
-      <option value="MK" data-ctag="150" data-tag="039">Macedonia, The Former Yugoslav Republic Of</option>
+      <option value="MK" data-ctag="150" data-tag="039">Macedonia</option>
       <option value="MT" data-ctag="150" data-tag="039">Malta</option>
       <option value="PT" data-ctag="150" data-tag="039">Portugal</option>
       <option value="SI" data-ctag="150" data-tag="039">Slovenia</option>
@@ -161,16 +161,16 @@
       <option value="CN" data-ctag="142" data-tag="030">China</option>
       <option value="HK" data-ctag="142" data-tag="030">Hong Kong</option>
       <option value="JP" data-ctag="142" data-tag="030">Japan</option>
-      <option value="KP" data-ctag="142" data-tag="030">Korea, Democratic People'S Republic Of</option>
-      <option value="KR" data-ctag="142" data-tag="030">Korea, Republic Of</option>
+      <option value="KP" data-ctag="142" data-tag="030">North Korea</option>
+      <option value="KR" data-ctag="142" data-tag="030">South Korea</option>
       <option value="MN" data-ctag="142" data-tag="030">Mongolia</option>
       <option value="MO" data-ctag="142" data-tag="030">Macau</option>
-      <option value="TW" data-ctag="142" data-tag="030">Taiwan, Province Of China</option>
+      <option value="TW" data-ctag="142" data-tag="030">Taiwan</option>
       <option value="AF" data-ctag="142" data-tag="034">Afghanistan</option>
       <option value="BD" data-ctag="142" data-tag="034">Bangladesh</option>
       <option value="BT" data-ctag="142" data-tag="034">Bhutan</option>
       <option value="IN" data-ctag="142" data-tag="034">India</option>
-      <option value="IR" data-ctag="142" data-tag="034">Iran, Islamic Republic Of</option>
+      <option value="IR" data-ctag="142" data-tag="034">Iran</option>
       <option value="LK" data-ctag="142" data-tag="034">Sri Lanka</option>
       <option value="MV" data-ctag="142" data-tag="034">Maldives</option>
       <option value="NP" data-ctag="142" data-tag="034">Nepal</option>
@@ -210,7 +210,7 @@
       <option value="PG" data-ctag="009" data-tag="054">Papua New Guinea</option>
       <option value="SB" data-ctag="009" data-tag="054">Solomon Islands</option>
       <option value="VU" data-ctag="009" data-tag="054">Vanuatu</option>
-      <option value="FM" data-ctag="009" data-tag="057">Micronesia, Federated States Of</option>
+      <option value="FM" data-ctag="009" data-tag="057">Micronesia</option>
       <option value="GU" data-ctag="009" data-tag="057">Guam</option>
       <option value="KI" data-ctag="009" data-tag="057">Kiribati</option>
       <option value="MH" data-ctag="009" data-tag="057">Marshall Islands</option>

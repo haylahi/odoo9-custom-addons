@@ -48,8 +48,8 @@
               <ul class="list-group">
                 <li class="list-group-item">Background-color<input class="pull-right" name="backgroundColor" type="color" value="#FFFFFF" /></li>
                 <li class="list-group-item">Dataless region color<input class="pull-right" name="datalessRegionColor" type="color" value="#F5F5F5" /></li>
-                <li class="list-group-item">Color Axis From<input class="pull-right" name="colorAxisFrom" type="color" value="#EEE5DB" /></li>
-                <li class="list-group-item">Color Axis To<input class="pull-right" name="colorAxisTo" type="color" value="#267114" /></li>
+                <li class="list-group-item">Start of the color axis<input class="pull-right" name="colorAxisFrom" type="color" value="#EEE5DB" /></li>
+                <li class="list-group-item">End of the color axis<input class="pull-right" name="colorAxisTo" type="color" value="#267114" /></li>
                 <li class="list-group-item">Marker opacity<input class="pull-right" name="markerOpacity" type="number" value="1.0" step="0.1" min="0.0" max="1.0" /></li>
               </ul>
             </div>
