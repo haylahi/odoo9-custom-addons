@@ -30,7 +30,9 @@ odoo.define('web_geochart.Graphwidget', function (require) {
 
         this.$el.empty();
         this.$el.append(QWeb.render('GeoChartView'));
-        this.sort_map_options();
+
+        // Sort select options on load
+        this.sortRegionsOptions();
 
         google.charts.load('current', {
           'packages':['geochart','table'],
@@ -79,6 +81,7 @@ odoo.define('web_geochart.Graphwidget', function (require) {
 
         // We want to map 2 columns of data if the first groupby is not a number, else 3 
         if(isNaN(this.data[0].labels[0])) {
+          
           // We reduce the values to the first groupby
           data = [
             {
@@ -93,7 +96,6 @@ odoo.define('web_geochart.Graphwidget', function (require) {
               key: measure,
             }
           ]
-
           features = [[this.groupbys[0], data[0].key]]
         } else {
           data = [
@@ -125,7 +127,7 @@ odoo.define('web_geochart.Graphwidget', function (require) {
       let map = new google.visualization.GeoChart(document.getElementById('map_div'));
       let table = new google.visualization.Table(document.getElementById('table_div'));
 
-      this.addMapEvents(map, table);
+      this.addMapViewEvents(map, table);
 
       map.draw(data, mapOptions);
       table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
@@ -173,9 +175,11 @@ odoo.define('web_geochart.Graphwidget', function (require) {
      * @param map object 
      * @param table object
      * 
-     * Add Listeners on select event to trigger the tooltip and on error event to delete base error message to display bootstrap's one
+     * Add Listeners on :
+     * - select event to trigger the tooltip
+     * - error event to delete base error message and display custom one
      */
-    addMapEvents: (map, table) => {
+    addMapViewEvents: (map, table) => {
       google.visualization.events.addListener(table, 'select', () => {
         map.setSelection(table.getSelection())
       });
@@ -216,7 +220,7 @@ odoo.define('web_geochart.Graphwidget', function (require) {
     /**
      * Sort the continents, subcontinents and countries on page load.
      */
-    sort_map_options: () => {
+    sortRegionOptions: () => {
       let sorted;
       $(".mapView .select-sortable")
         .map(function () { 
