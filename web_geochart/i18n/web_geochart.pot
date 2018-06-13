@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-12 10:42+0000\n"
-"PO-Revision-Date: 2018-06-12 10:42+0000\n"
+"POT-Creation-Date: 2018-06-13 10:16+0000\n"
+"PO-Revision-Date: 2018-06-13 10:16+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -143,9 +143,9 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:49
+#: code:addons/web_geochart/static/src/xml/geochart.xml:60
 #, python-format
-msgid "Background-color"
+msgid "Background color"
 msgstr ""
 
 #. module: web_geochart
@@ -367,7 +367,7 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:42
+#: code:addons/web_geochart/static/src/xml/geochart.xml:53
 #, python-format
 msgid "Color Settings"
 msgstr ""
@@ -388,7 +388,7 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:29
+#: code:addons/web_geochart/static/src/xml/geochart.xml:40
 #, python-format
 msgid "Continent"
 msgstr ""
@@ -430,7 +430,7 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:35
+#: code:addons/web_geochart/static/src/xml/geochart.xml:46
 #, python-format
 msgid "Country"
 msgstr ""
@@ -465,14 +465,14 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:67
+#: code:addons/web_geochart/static/src/xml/geochart.xml:78
 #, python-format
 msgid "Data Display"
 msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:50
+#: code:addons/web_geochart/static/src/xml/geochart.xml:61
 #, python-format
 msgid "Dataless region color"
 msgstr ""
@@ -563,7 +563,7 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:52
+#: code:addons/web_geochart/static/src/xml/geochart.xml:63
 #, python-format
 msgid "End of the color axis"
 msgstr ""
@@ -1032,7 +1032,7 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:53
+#: code:addons/web_geochart/static/src/xml/geochart.xml:64
 #, python-format
 msgid "Marker opacity"
 msgstr ""
@@ -1390,7 +1390,7 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:59
+#: code:addons/web_geochart/static/src/xml/geochart.xml:70
 #, python-format
 msgid "Print"
 msgstr ""
@@ -1414,6 +1414,13 @@ msgstr ""
 #: code:addons/web_geochart/static/src/xml/countries.xml:200
 #, python-format
 msgid "Qatar"
+msgstr ""
+
+#. module: web_geochart
+#. openerp-web
+#: code:addons/web_geochart/static/src/xml/geochart.xml:33
+#, python-format
+msgid "Region Settings"
 msgstr ""
 
 #. module: web_geochart
@@ -1642,14 +1649,14 @@ msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:51
+#: code:addons/web_geochart/static/src/xml/geochart.xml:62
 #, python-format
 msgid "Start of the color axis"
 msgstr ""
 
 #. module: web_geochart
 #. openerp-web
-#: code:addons/web_geochart/static/src/xml/geochart.xml:32
+#: code:addons/web_geochart/static/src/xml/geochart.xml:43
 #, python-format
 msgid "Sub Continent"
 msgstr ""

@@ -32,7 +32,7 @@ odoo.define('web_geochart.Graphwidget', function (require) {
         this.$el.append(QWeb.render('GeoChartView'));
 
         // Sort select options on load
-        this.sortRegionsOptions();
+        this.sortRegionOptions();
 
         google.charts.load('current', {
           'packages':['geochart','table'],

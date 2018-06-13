@@ -26,6 +26,17 @@
                     <option value="metro">Metro</option>
                   </select>
                 </li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" aria-expanded="false" data-toggle="collapse" data-target="#region-settings">
+              Region Settings
+              <i class="fa fa-chevron-right pull-right"></i>
+              <i class="fa fa-chevron-down pull-right"></i>
+            </div>
+            <div id="region-settings" class="collapse">
+              <ul class="list-group form-inline">
                 <li class="list-group-item">Continent 
                   <t t-call="openBI.continents"></t>
                 </li>
@@ -46,7 +57,7 @@
             </div>
             <div id="color-settings" class="collapse">
               <ul class="list-group">
-                <li class="list-group-item">Background-color<input class="pull-right" name="backgroundColor" type="color" value="#FFFFFF" /></li>
+                <li class="list-group-item">Background color<input class="pull-right" name="backgroundColor" type="color" value="#FFFFFF" /></li>
                 <li class="list-group-item">Dataless region color<input class="pull-right" name="datalessRegionColor" type="color" value="#F5F5F5" /></li>
                 <li class="list-group-item">Start of the color axis<input class="pull-right" name="colorAxisFrom" type="color" value="#EEE5DB" /></li>
                 <li class="list-group-item">End of the color axis<input class="pull-right" name="colorAxisTo" type="color" value="#267114" /></li>
