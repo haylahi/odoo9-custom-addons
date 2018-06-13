@@ -36,7 +36,6 @@ odoo.define('web_geochart.Graphwidget', function (require) {
           'packages':['geochart','table'],
           'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
         });
-        $('#error-div').hide();
     },
     /**
      * @returns features transformed data
@@ -80,12 +79,21 @@ odoo.define('web_geochart.Graphwidget', function (require) {
 
         // We want to map 2 columns of data if the first groupby is not a number, else 3 
         if(isNaN(this.data[0].labels[0])) {
+          // We reduce the values to the first groupby
           data = [
             {
-              values: this.data.map(d => { return { x:d.labels[0], y: d.value } }),
+              values: this.data.reduce((acc, cur) => {
+                if (acc.map(e => e.x).includes(cur.labels[0])) {
+                  acc.filter(e => e.x == cur.labels[0]).map(e => e.y += cur.value)
+                } else {
+                  acc.push({ x:cur.labels[0], y: cur.value })
+                }
+                return acc;
+              }, []),
               key: measure,
             }
           ]
+
           features = [[this.groupbys[0], data[0].key]]
         } else {
           data = [
