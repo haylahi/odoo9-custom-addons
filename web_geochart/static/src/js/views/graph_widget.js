@@ -128,7 +128,7 @@ odoo.define('web_geochart.Graphwidget', function (require) {
       let table = new google.visualization.Table(document.getElementById('table_div'));
 
       this.addMapViewEvents(map, table);
-
+      console.log(mapOptions);
       map.draw(data, mapOptions);
       table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
 
@@ -198,6 +198,9 @@ odoo.define('web_geochart.Graphwidget', function (require) {
           }).appendTo('#error_div')
         );
       });
+      google.visualization.events.addListener(map, 'ready', () => {
+        document.getElementById('mapImage').innerHTML = '<img src="' + map.getImageURI() + '" />'
+      });
       google.visualization.events.addListener(map, 'select', () => {
         table.setSelection(map.getSelection())
       });
@@ -235,7 +238,9 @@ odoo.define('web_geochart.Graphwidget', function (require) {
             .empty()
             .append(sorted);
         });
-      $(".mapView .select-continents").val("world")
+        $(".mapView .select-continents").val("world")
+        $(".mapView .select-subcontinents").val(" ")
+        $(".mapView .select-continents").val(" ")
     },
   })
 });

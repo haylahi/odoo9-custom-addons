@@ -18,15 +18,13 @@ odoo.define('web_geochart.GraphView',function (require) {
         this.build_options();
       },
       /**
-       * Get the displayed map and creates a new page to print.
+       * Get the displayed map and creates a new page with the image.
        */
-      'click .mapView #printMap': () => {
-        let mapWindow = window.open('', 'PRINT', 'height=400,width=600');
-        mapWindow.document.write(document.getElementById('map_div').innerHTML);
+      'click .mapView #getMapImage': function () {
+        let mapWindow = window.open('', '_blank');
+        mapWindow.document.write(document.getElementById('mapImage').innerHTML);
         mapWindow.document.close();
         mapWindow.focus();
-        mapWindow.print();
-        mapWindow.close();
       },
     },
     /**

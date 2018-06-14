@@ -19,7 +19,7 @@
                     <option value="text">Text</option>
                   </select>
                 </li>
-                <li class="list-group-item">Resolution 
+                <li class="list-group-item">Granulariy 
                   <select class="pull-right" name="resolution">
                     <option value="countries">Countries</option>
                     <option value="provinces">Provinces</option>
@@ -67,7 +67,8 @@
           </div>
           <div class="button-action row">
             <div class="col-xs-12">
-              <button id="printMap" class="btn btn-default btn-md pull-right">Print</button>
+              <div class="hidden" id="mapImage"></div>
+              <button id="printMap" class="btn btn-default btn-md pull-right">Show image</button>
             </div>
           </div>
         </div>
@@ -75,12 +76,12 @@
           <div id="error_div"></div>
           <div id="map_div"></div>
           <div id="map-table" class="panel panel-default">
-            <div class="panel-heading" aria-expanded="false" data-toggle="collapse" data-target="#map-data-display">
+            <div class="panel-heading" aria-expanded="true" data-toggle="collapse" data-target="#map-data-display">
               Data Display
               <i class="fa fa-chevron-right pull-right"></i>
               <i class="fa fa-chevron-down pull-right"></i>
             </div>
-            <div id="map-data-display" class="collapse">
+            <div id="map-data-display" class="collapse in">
               <div id="table_div"></div>
             </div>
           </div>

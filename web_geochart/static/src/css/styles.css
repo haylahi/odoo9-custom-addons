@@ -4,7 +4,7 @@
 .mapView .list-group {
     margin-bottom: 0;
 }
-.mapView .button-action button {
+.mapView .button-action a, .mapView .button-action button {
     background-color: #7B7AAC; 
     color: white;
     width: 105px;
